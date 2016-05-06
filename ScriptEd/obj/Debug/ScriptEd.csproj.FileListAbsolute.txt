@@ -1,0 +1,42 @@
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\bin\Debug\ScriptEd.exe.config
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\bin\Debug\ScriptEd.exe
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\bin\Debug\ScriptEd.pdb
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.csprojResolveAssemblyReference.cache
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.mainWindow.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.Properties.Resources.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.csproj.GenerateResource.Cache
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.exe
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.pdb
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.startDialog.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.pokepicPos.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.applyMovement.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.addShop.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\ScriptEd\obj\Debug\ScriptEd.addString.resources
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\bin\Debug\ScriptEd.exe.config
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.exe
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.pdb
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\bin\Debug\ScriptEd.exe
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\bin\Debug\ScriptEd.pdb
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.csprojResolveAssemblyReference.cache
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.addShop.resources
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.addString.resources
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.applyMovement.resources
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.mainWindow.resources
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.startDialog.resources
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.Properties.Resources.resources
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.pokepicPos.resources
+C:\Users\Natalia\Documents\Visual Studio 2015\Projects\ScriptED\ScriptEd\obj\Debug\ScriptEd.csproj.GenerateResource.Cache
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\bin\Debug\ScriptEd.exe.config
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.exe
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.pdb
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\bin\Debug\ScriptEd.exe
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\bin\Debug\ScriptEd.pdb
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.csprojResolveAssemblyReference.cache
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.addShop.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.addString.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.applyMovement.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.mainWindow.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.startDialog.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.Properties.Resources.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.pokepicPos.resources
+H:\OTROS\ROM HACKING\PROGRAMAS\ScriptEd\Nueva carpeta\ScriptED\ScriptEd\obj\Debug\ScriptEd.csproj.GenerateResource.Cache

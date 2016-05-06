@@ -1,0 +1,33 @@
+string getLine(int init, string text)
+{
+	Si text > 34 caracteres
+		1. montar cadena auxiliar con 34 caracteres (sin contar texto entre corchetes)
+			> si aparece '\x' acabar bucle
+		2. comprobar posición último espacio
+		3. montar cadena definitiva
+		4. devolver la cadena
+	Si text <=34 caracteres
+		1. devolver texto entero
+}
+
+int countLine(string line)
+{
+	1. contar caracteres de la linea (con texto entre corchetes y '\x')
+	2. devolver el núm. de caracteres
+}
+
+string getPrev(string text)
+{
+	1. limpia texto previsualización
+	2. inicializa i
+	3. for (i = 0; i < text.length; i++)
+		1. newLine = getLine (i, text)
+		2. i = i + countLine (newLine)
+		3. contar línea
+		4. Si lineas es 0
+			1. prevText = prevText + newLine + \n
+		   Si líneas no es 0
+			1. prevText = prevText + newLine + \l
+		5. inicializar newLine
+	4. devolver texto
+}
