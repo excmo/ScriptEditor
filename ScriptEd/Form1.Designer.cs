@@ -37,28 +37,10 @@
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.nuevoToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.abrirToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.guardarToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.cortarToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.copiarToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.pegarToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.movBt = new System.Windows.Forms.ToolStripButton();
-            this.martBt = new System.Windows.Forms.ToolStripButton();
-            this.addStrBt = new System.Windows.Forms.ToolStripButton();
-            this.closeKeypressBt = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.newScriptBt = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.lockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lockAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.releaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.releaseAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.faceplayerBt = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.ayudaToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.romTypeText = new System.Windows.Forms.ToolStripLabel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -152,20 +134,9 @@
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.label12 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.soundTab = new System.Windows.Forms.TabPage();
+            this.moveTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -173,6 +144,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.stringBox = new System.Windows.Forms.TreeView();
+            this.textIcon = new System.Windows.Forms.ImageList(this.components);
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.BottomToolStripPanel = new System.Windows.Forms.ToolStripPanel();
@@ -180,7 +152,52 @@
             this.RightToolStripPanel = new System.Windows.Forms.ToolStripPanel();
             this.LeftToolStripPanel = new System.Windows.Forms.ToolStripPanel();
             this.ContentPanel = new System.Windows.Forms.ToolStripContentPanel();
-            this.textIcon = new System.Windows.Forms.ImageList(this.components);
+            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+            this.stepRightBt_moves = new System.Windows.Forms.Button();
+            this.stepLeftBt_Moves = new System.Windows.Forms.Button();
+            this.stepDownBt_moves = new System.Windows.Forms.Button();
+            this.stepUpBt_moves = new System.Windows.Forms.Button();
+            this.mini_moves = new System.Windows.Forms.PictureBox();
+            this.moveSpeed_moves = new System.Windows.Forms.TrackBar();
+            this.headExclamBt_moves = new System.Windows.Forms.Button();
+            this.headQuestionBt_moves = new System.Windows.Forms.Button();
+            this.headDoubleHeartBt_moves = new System.Windows.Forms.Button();
+            this.headX_moves = new System.Windows.Forms.Button();
+            this.headSmileBt_moves = new System.Windows.Forms.Button();
+            this.nuevoToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.abrirToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.guardarToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.cortarToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.copiarToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.pegarToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.movBt = new System.Windows.Forms.ToolStripButton();
+            this.martBt = new System.Windows.Forms.ToolStripButton();
+            this.addStrBt = new System.Windows.Forms.ToolStripButton();
+            this.closeKeypressBt = new System.Windows.Forms.ToolStripButton();
+            this.newScriptBt = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.lockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lockAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.releaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.releaseAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.faceplayerBt = new System.Windows.Forms.ToolStripButton();
+            this.ayudaToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.label13 = new System.Windows.Forms.Label();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
+            this.moveList_moves = new System.Windows.Forms.ListBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.movID_moves = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.numOw_moves = new System.Windows.Forms.NumericUpDown();
+            this.gotoAdvancedBt_moves = new System.Windows.Forms.Button();
+            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.insertMoveBt_moves = new System.Windows.Forms.Button();
+            this.firstBt_moves = new System.Windows.Forms.Button();
+            this.upBt_moves = new System.Windows.Forms.Button();
+            this.removeBt_moves = new System.Windows.Forms.Button();
+            this.downBt_moves = new System.Windows.Forms.Button();
+            this.lastBt_moves = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -231,12 +248,9 @@
             this.flowLayoutPanel14.SuspendLayout();
             this.flowLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            this.soundTab.SuspendLayout();
+            this.moveTab.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.tableLayoutPanel7.SuspendLayout();
-            this.flowLayoutPanel7.SuspendLayout();
-            this.flowLayoutPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -245,6 +259,13 @@
             this.tabPage4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tableLayoutPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_moves)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moveSpeed_moves)).BeginInit();
+            this.groupBox10.SuspendLayout();
+            this.tableLayoutPanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numOw_moves)).BeginInit();
+            this.tableLayoutPanel15.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -321,185 +342,25 @@
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // nuevoToolStripButton
-            // 
-            this.nuevoToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.nuevoToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("nuevoToolStripButton.Image")));
-            this.nuevoToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.nuevoToolStripButton.Name = "nuevoToolStripButton";
-            this.nuevoToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.nuevoToolStripButton.Text = "&Nuevo";
-            // 
-            // abrirToolStripButton
-            // 
-            this.abrirToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.abrirToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("abrirToolStripButton.Image")));
-            this.abrirToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.abrirToolStripButton.Name = "abrirToolStripButton";
-            this.abrirToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.abrirToolStripButton.Text = "&Abrir";
-            // 
-            // guardarToolStripButton
-            // 
-            this.guardarToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.guardarToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("guardarToolStripButton.Image")));
-            this.guardarToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.guardarToolStripButton.Name = "guardarToolStripButton";
-            this.guardarToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.guardarToolStripButton.Text = "&Guardar";
-            // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
             this.toolStripSeparator.Size = new System.Drawing.Size(6, 25);
-            // 
-            // cortarToolStripButton
-            // 
-            this.cortarToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.cortarToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("cortarToolStripButton.Image")));
-            this.cortarToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cortarToolStripButton.Name = "cortarToolStripButton";
-            this.cortarToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.cortarToolStripButton.Text = "Cort&ar";
-            // 
-            // copiarToolStripButton
-            // 
-            this.copiarToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.copiarToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("copiarToolStripButton.Image")));
-            this.copiarToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.copiarToolStripButton.Name = "copiarToolStripButton";
-            this.copiarToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.copiarToolStripButton.Text = "&Copiar";
-            // 
-            // pegarToolStripButton
-            // 
-            this.pegarToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.pegarToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("pegarToolStripButton.Image")));
-            this.pegarToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.pegarToolStripButton.Name = "pegarToolStripButton";
-            this.pegarToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.pegarToolStripButton.Text = "&Pegar";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // movBt
-            // 
-            this.movBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.movBt.Image = global::ScriptEd.Properties.Resources.fr_move_mini;
-            this.movBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
-            this.movBt.Name = "movBt";
-            this.movBt.Size = new System.Drawing.Size(23, 22);
-            this.movBt.Text = "Apply movement";
-            this.movBt.Click += new System.EventHandler(this.movBt_Click);
-            // 
-            // martBt
-            // 
-            this.martBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.martBt.Image = global::ScriptEd.Properties.Resources.mart_ico;
-            this.martBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
-            this.martBt.Name = "martBt";
-            this.martBt.Size = new System.Drawing.Size(23, 22);
-            this.martBt.Text = "Add a Pokemart";
-            this.martBt.Click += new System.EventHandler(this.OpenAddMart);
-            // 
-            // addStrBt
-            // 
-            this.addStrBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.addStrBt.Image = global::ScriptEd.Properties.Resources.srtings;
-            this.addStrBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
-            this.addStrBt.Name = "addStrBt";
-            this.addStrBt.Size = new System.Drawing.Size(23, 22);
-            this.addStrBt.Text = "Add String";
-            this.addStrBt.Click += new System.EventHandler(this.openAddStr);
-            // 
-            // closeKeypressBt
-            // 
-            this.closeKeypressBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.closeKeypressBt.Enabled = false;
-            this.closeKeypressBt.Image = global::ScriptEd.Properties.Resources.close_keypress;
-            this.closeKeypressBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
-            this.closeKeypressBt.Name = "closeKeypressBt";
-            this.closeKeypressBt.Size = new System.Drawing.Size(23, 22);
-            this.closeKeypressBt.Text = "Close on key press";
-            // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
-            // newScriptBt
-            // 
-            this.newScriptBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.newScriptBt.Image = global::ScriptEd.Properties.Resources.newScript;
-            this.newScriptBt.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.newScriptBt.Name = "newScriptBt";
-            this.newScriptBt.Size = new System.Drawing.Size(23, 22);
-            this.newScriptBt.Text = "New script";
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lockToolStripMenuItem,
-            this.lockAllToolStripMenuItem,
-            this.releaseToolStripMenuItem,
-            this.releaseAllToolStripMenuItem});
-            this.toolStripButton1.Image = global::ScriptEd.Properties.Resources._lock;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(29, 22);
-            this.toolStripButton1.Text = "Lock / release";
-            // 
-            // lockToolStripMenuItem
-            // 
-            this.lockToolStripMenuItem.Name = "lockToolStripMenuItem";
-            this.lockToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
-            this.lockToolStripMenuItem.Text = "Lock";
-            // 
-            // lockAllToolStripMenuItem
-            // 
-            this.lockAllToolStripMenuItem.Name = "lockAllToolStripMenuItem";
-            this.lockAllToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
-            this.lockAllToolStripMenuItem.Text = "Lock all";
-            // 
-            // releaseToolStripMenuItem
-            // 
-            this.releaseToolStripMenuItem.Name = "releaseToolStripMenuItem";
-            this.releaseToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
-            this.releaseToolStripMenuItem.Text = "Release";
-            // 
-            // releaseAllToolStripMenuItem
-            // 
-            this.releaseAllToolStripMenuItem.Name = "releaseAllToolStripMenuItem";
-            this.releaseAllToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
-            this.releaseAllToolStripMenuItem.Text = "Release all";
-            // 
-            // faceplayerBt
-            // 
-            this.faceplayerBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.faceplayerBt.Image = global::ScriptEd.Properties.Resources.faceplayer;
-            this.faceplayerBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(197)))), ((int)(((byte)(165)))));
-            this.faceplayerBt.Name = "faceplayerBt";
-            this.faceplayerBt.Size = new System.Drawing.Size(23, 22);
-            this.faceplayerBt.Text = "Face player";
-            // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // ayudaToolStripButton
-            // 
-            this.ayudaToolStripButton.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.ayudaToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ayudaToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("ayudaToolStripButton.Image")));
-            this.ayudaToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ayudaToolStripButton.Name = "ayudaToolStripButton";
-            this.ayudaToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.ayudaToolStripButton.Text = "Ay&uda";
             // 
             // romTypeText
             // 
@@ -539,7 +400,7 @@
             this.tabControl3.Controls.Add(this.calcTab);
             this.tabControl3.Controls.Add(this.pokeTab);
             this.tabControl3.Controls.Add(this.itemTab);
-            this.tabControl3.Controls.Add(this.soundTab);
+            this.tabControl3.Controls.Add(this.moveTab);
             this.tabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl3.Location = new System.Drawing.Point(0, 0);
             this.tabControl3.Multiline = true;
@@ -3214,22 +3075,23 @@
             this.comboBox2.Size = new System.Drawing.Size(100, 21);
             this.comboBox2.TabIndex = 17;
             // 
-            // soundTab
+            // moveTab
             // 
-            this.soundTab.Controls.Add(this.tableLayoutPanel5);
-            this.soundTab.Location = new System.Drawing.Point(4, 22);
-            this.soundTab.Name = "soundTab";
-            this.soundTab.Padding = new System.Windows.Forms.Padding(3);
-            this.soundTab.Size = new System.Drawing.Size(286, 532);
-            this.soundTab.TabIndex = 2;
-            this.soundTab.Text = "Sounds";
-            this.soundTab.UseVisualStyleBackColor = true;
+            this.moveTab.Controls.Add(this.tableLayoutPanel5);
+            this.moveTab.Location = new System.Drawing.Point(4, 22);
+            this.moveTab.Name = "moveTab";
+            this.moveTab.Padding = new System.Windows.Forms.Padding(3);
+            this.moveTab.Size = new System.Drawing.Size(286, 532);
+            this.moveTab.TabIndex = 2;
+            this.moveTab.Text = "Quick movement";
+            this.moveTab.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.ColumnCount = 1;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.Controls.Add(this.groupBox4, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.groupBox10, 0, 1);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
@@ -3246,124 +3108,9 @@
             this.groupBox4.Location = new System.Drawing.Point(3, 3);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(274, 257);
-            this.groupBox4.TabIndex = 3;
+            this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Sounds";
-            // 
-            // tableLayoutPanel7
-            // 
-            this.tableLayoutPanel7.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel7.ColumnCount = 1;
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Controls.Add(this.flowLayoutPanel7, 0, 1);
-            this.tableLayoutPanel7.Controls.Add(this.flowLayoutPanel6, 0, 0);
-            this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 16);
-            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
-            this.tableLayoutPanel7.RowCount = 2;
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(268, 238);
-            this.tableLayoutPanel7.TabIndex = 0;
-            // 
-            // flowLayoutPanel7
-            // 
-            this.flowLayoutPanel7.Controls.Add(this.label14);
-            this.flowLayoutPanel7.Controls.Add(this.comboBox4);
-            this.flowLayoutPanel7.Controls.Add(this.checkBox2);
-            this.flowLayoutPanel7.Controls.Add(this.button4);
-            this.flowLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel7.Location = new System.Drawing.Point(4, 122);
-            this.flowLayoutPanel7.Name = "flowLayoutPanel7";
-            this.flowLayoutPanel7.Size = new System.Drawing.Size(260, 112);
-            this.flowLayoutPanel7.TabIndex = 1;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(66, 13);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Play this cry:";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(75, 3);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(120, 21);
-            this.comboBox4.TabIndex = 13;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(3, 30);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(139, 17);
-            this.checkBox2.TabIndex = 17;
-            this.checkBox2.Text = "Stop script while playing";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(148, 30);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "<< Insert";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanel6
-            // 
-            this.flowLayoutPanel6.Controls.Add(this.label13);
-            this.flowLayoutPanel6.Controls.Add(this.comboBox3);
-            this.flowLayoutPanel6.Controls.Add(this.checkBox1);
-            this.flowLayoutPanel6.Controls.Add(this.button3);
-            this.flowLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel6.Location = new System.Drawing.Point(4, 4);
-            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(260, 111);
-            this.flowLayoutPanel6.TabIndex = 0;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(3, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(85, 13);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Play this fanfare:";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(94, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(120, 21);
-            this.comboBox3.TabIndex = 13;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(3, 30);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(139, 17);
-            this.checkBox1.TabIndex = 17;
-            this.checkBox1.Text = "Stop script while playing";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(148, 30);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "<< Insert";
-            this.button3.UseVisualStyleBackColor = true;
+            this.groupBox4.Text = "Move selector";
             // 
             // splitContainer1
             // 
@@ -3453,6 +3200,13 @@
             this.stringBox.TabIndex = 0;
             this.stringBox.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.callStr);
             // 
+            // textIcon
+            // 
+            this.textIcon.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("textIcon.ImageStream")));
+            this.textIcon.TransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
+            this.textIcon.Images.SetKeyName(0, "srtings.png");
+            this.textIcon.Images.SetKeyName(1, "fontColor.png");
+            // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
@@ -3509,12 +3263,553 @@
             // 
             this.ContentPanel.Size = new System.Drawing.Size(280, 501);
             // 
-            // textIcon
+            // tableLayoutPanel7
             // 
-            this.textIcon.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("textIcon.ImageStream")));
-            this.textIcon.TransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
-            this.textIcon.Images.SetKeyName(0, "srtings.png");
-            this.textIcon.Images.SetKeyName(1, "fontColor.png");
+            this.tableLayoutPanel7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel7.BackgroundImage = global::ScriptEd.Properties.Resources.bg_fr;
+            this.tableLayoutPanel7.ColumnCount = 7;
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.Controls.Add(this.stepRightBt_moves, 6, 2);
+            this.tableLayoutPanel7.Controls.Add(this.stepLeftBt_Moves, 0, 2);
+            this.tableLayoutPanel7.Controls.Add(this.stepDownBt_moves, 2, 6);
+            this.tableLayoutPanel7.Controls.Add(this.stepUpBt_moves, 2, 0);
+            this.tableLayoutPanel7.Controls.Add(this.mini_moves, 3, 3);
+            this.tableLayoutPanel7.Controls.Add(this.moveSpeed_moves, 2, 5);
+            this.tableLayoutPanel7.Controls.Add(this.headExclamBt_moves, 2, 1);
+            this.tableLayoutPanel7.Controls.Add(this.headQuestionBt_moves, 3, 1);
+            this.tableLayoutPanel7.Controls.Add(this.headDoubleHeartBt_moves, 4, 1);
+            this.tableLayoutPanel7.Controls.Add(this.headX_moves, 1, 2);
+            this.tableLayoutPanel7.Controls.Add(this.headSmileBt_moves, 5, 2);
+            this.tableLayoutPanel7.Controls.Add(this.label13, 2, 4);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(25, 19);
+            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+            this.tableLayoutPanel7.RowCount = 7;
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(224, 224);
+            this.tableLayoutPanel7.TabIndex = 1;
+            // 
+            // stepRightBt_moves
+            // 
+            this.stepRightBt_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stepRightBt_moves.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stepRightBt_moves.Location = new System.Drawing.Point(195, 67);
+            this.stepRightBt_moves.Name = "stepRightBt_moves";
+            this.tableLayoutPanel7.SetRowSpan(this.stepRightBt_moves, 3);
+            this.stepRightBt_moves.Size = new System.Drawing.Size(26, 90);
+            this.stepRightBt_moves.TabIndex = 9;
+            this.stepRightBt_moves.Text = "";
+            this.stepRightBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // stepLeftBt_Moves
+            // 
+            this.stepLeftBt_Moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stepLeftBt_Moves.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stepLeftBt_Moves.Location = new System.Drawing.Point(3, 67);
+            this.stepLeftBt_Moves.Name = "stepLeftBt_Moves";
+            this.tableLayoutPanel7.SetRowSpan(this.stepLeftBt_Moves, 3);
+            this.stepLeftBt_Moves.Size = new System.Drawing.Size(26, 90);
+            this.stepLeftBt_Moves.TabIndex = 7;
+            this.stepLeftBt_Moves.Text = "";
+            this.stepLeftBt_Moves.UseVisualStyleBackColor = true;
+            // 
+            // stepDownBt_moves
+            // 
+            this.tableLayoutPanel7.SetColumnSpan(this.stepDownBt_moves, 3);
+            this.stepDownBt_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stepDownBt_moves.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stepDownBt_moves.Location = new System.Drawing.Point(67, 195);
+            this.stepDownBt_moves.Name = "stepDownBt_moves";
+            this.stepDownBt_moves.Size = new System.Drawing.Size(90, 26);
+            this.stepDownBt_moves.TabIndex = 4;
+            this.stepDownBt_moves.Text = "";
+            this.stepDownBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // stepUpBt_moves
+            // 
+            this.tableLayoutPanel7.SetColumnSpan(this.stepUpBt_moves, 3);
+            this.stepUpBt_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stepUpBt_moves.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stepUpBt_moves.Location = new System.Drawing.Point(67, 3);
+            this.stepUpBt_moves.Name = "stepUpBt_moves";
+            this.stepUpBt_moves.Size = new System.Drawing.Size(90, 26);
+            this.stepUpBt_moves.TabIndex = 2;
+            this.stepUpBt_moves.Text = "";
+            this.stepUpBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // mini_moves
+            // 
+            this.mini_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mini_moves.Image = global::ScriptEd.Properties.Resources.fr_move_mini;
+            this.mini_moves.InitialImage = null;
+            this.mini_moves.Location = new System.Drawing.Point(96, 96);
+            this.mini_moves.Margin = new System.Windows.Forms.Padding(0);
+            this.mini_moves.Name = "mini_moves";
+            this.mini_moves.Size = new System.Drawing.Size(32, 32);
+            this.mini_moves.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.mini_moves.TabIndex = 0;
+            this.mini_moves.TabStop = false;
+            // 
+            // moveSpeed_moves
+            // 
+            this.tableLayoutPanel7.SetColumnSpan(this.moveSpeed_moves, 3);
+            this.moveSpeed_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.moveSpeed_moves.LargeChange = 1;
+            this.moveSpeed_moves.Location = new System.Drawing.Point(67, 163);
+            this.moveSpeed_moves.Maximum = 4;
+            this.moveSpeed_moves.Minimum = 1;
+            this.moveSpeed_moves.Name = "moveSpeed_moves";
+            this.moveSpeed_moves.Size = new System.Drawing.Size(90, 26);
+            this.moveSpeed_moves.TabIndex = 5;
+            this.moveSpeed_moves.Value = 3;
+            // 
+            // headExclamBt_moves
+            // 
+            this.headExclamBt_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.headExclamBt_moves.Location = new System.Drawing.Point(67, 35);
+            this.headExclamBt_moves.Name = "headExclamBt_moves";
+            this.headExclamBt_moves.Size = new System.Drawing.Size(26, 26);
+            this.headExclamBt_moves.TabIndex = 10;
+            this.headExclamBt_moves.Text = "❗";
+            this.headExclamBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // headQuestionBt_moves
+            // 
+            this.headQuestionBt_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.headQuestionBt_moves.Location = new System.Drawing.Point(99, 35);
+            this.headQuestionBt_moves.Name = "headQuestionBt_moves";
+            this.headQuestionBt_moves.Size = new System.Drawing.Size(26, 26);
+            this.headQuestionBt_moves.TabIndex = 11;
+            this.headQuestionBt_moves.Text = "❓";
+            this.headQuestionBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // headDoubleHeartBt_moves
+            // 
+            this.headDoubleHeartBt_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.headDoubleHeartBt_moves.Location = new System.Drawing.Point(131, 35);
+            this.headDoubleHeartBt_moves.Name = "headDoubleHeartBt_moves";
+            this.headDoubleHeartBt_moves.Size = new System.Drawing.Size(26, 26);
+            this.headDoubleHeartBt_moves.TabIndex = 12;
+            this.headDoubleHeartBt_moves.Text = "❤";
+            this.headDoubleHeartBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // headX_moves
+            // 
+            this.headX_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.headX_moves.Location = new System.Drawing.Point(35, 67);
+            this.headX_moves.Name = "headX_moves";
+            this.headX_moves.Size = new System.Drawing.Size(26, 26);
+            this.headX_moves.TabIndex = 13;
+            this.headX_moves.Text = "✖";
+            this.headX_moves.UseVisualStyleBackColor = true;
+            // 
+            // headSmileBt_moves
+            // 
+            this.headSmileBt_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.headSmileBt_moves.Location = new System.Drawing.Point(163, 67);
+            this.headSmileBt_moves.Name = "headSmileBt_moves";
+            this.headSmileBt_moves.Size = new System.Drawing.Size(26, 26);
+            this.headSmileBt_moves.TabIndex = 14;
+            this.headSmileBt_moves.Text = "";
+            this.headSmileBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // nuevoToolStripButton
+            // 
+            this.nuevoToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.nuevoToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("nuevoToolStripButton.Image")));
+            this.nuevoToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.nuevoToolStripButton.Name = "nuevoToolStripButton";
+            this.nuevoToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.nuevoToolStripButton.Text = "&Nuevo";
+            // 
+            // abrirToolStripButton
+            // 
+            this.abrirToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.abrirToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("abrirToolStripButton.Image")));
+            this.abrirToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.abrirToolStripButton.Name = "abrirToolStripButton";
+            this.abrirToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.abrirToolStripButton.Text = "&Abrir";
+            // 
+            // guardarToolStripButton
+            // 
+            this.guardarToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.guardarToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("guardarToolStripButton.Image")));
+            this.guardarToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.guardarToolStripButton.Name = "guardarToolStripButton";
+            this.guardarToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.guardarToolStripButton.Text = "&Guardar";
+            // 
+            // cortarToolStripButton
+            // 
+            this.cortarToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.cortarToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("cortarToolStripButton.Image")));
+            this.cortarToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.cortarToolStripButton.Name = "cortarToolStripButton";
+            this.cortarToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.cortarToolStripButton.Text = "Cort&ar";
+            // 
+            // copiarToolStripButton
+            // 
+            this.copiarToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.copiarToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("copiarToolStripButton.Image")));
+            this.copiarToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.copiarToolStripButton.Name = "copiarToolStripButton";
+            this.copiarToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.copiarToolStripButton.Text = "&Copiar";
+            // 
+            // pegarToolStripButton
+            // 
+            this.pegarToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.pegarToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("pegarToolStripButton.Image")));
+            this.pegarToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.pegarToolStripButton.Name = "pegarToolStripButton";
+            this.pegarToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.pegarToolStripButton.Text = "&Pegar";
+            // 
+            // movBt
+            // 
+            this.movBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.movBt.Image = global::ScriptEd.Properties.Resources.fr_move_mini;
+            this.movBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
+            this.movBt.Name = "movBt";
+            this.movBt.Size = new System.Drawing.Size(23, 22);
+            this.movBt.Text = "Apply movement";
+            this.movBt.Click += new System.EventHandler(this.movBt_Click);
+            // 
+            // martBt
+            // 
+            this.martBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.martBt.Image = global::ScriptEd.Properties.Resources.mart_ico;
+            this.martBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
+            this.martBt.Name = "martBt";
+            this.martBt.Size = new System.Drawing.Size(23, 22);
+            this.martBt.Text = "Add a Pokemart";
+            this.martBt.Click += new System.EventHandler(this.OpenAddMart);
+            // 
+            // addStrBt
+            // 
+            this.addStrBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.addStrBt.Image = global::ScriptEd.Properties.Resources.srtings;
+            this.addStrBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
+            this.addStrBt.Name = "addStrBt";
+            this.addStrBt.Size = new System.Drawing.Size(23, 22);
+            this.addStrBt.Text = "Add String";
+            this.addStrBt.Click += new System.EventHandler(this.openAddStr);
+            // 
+            // closeKeypressBt
+            // 
+            this.closeKeypressBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.closeKeypressBt.Enabled = false;
+            this.closeKeypressBt.Image = global::ScriptEd.Properties.Resources.close_keypress;
+            this.closeKeypressBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(192)))), ((int)(((byte)(160)))));
+            this.closeKeypressBt.Name = "closeKeypressBt";
+            this.closeKeypressBt.Size = new System.Drawing.Size(23, 22);
+            this.closeKeypressBt.Text = "Close on key press";
+            // 
+            // newScriptBt
+            // 
+            this.newScriptBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.newScriptBt.Image = global::ScriptEd.Properties.Resources.newScript;
+            this.newScriptBt.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.newScriptBt.Name = "newScriptBt";
+            this.newScriptBt.Size = new System.Drawing.Size(23, 22);
+            this.newScriptBt.Text = "New script";
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lockToolStripMenuItem,
+            this.lockAllToolStripMenuItem,
+            this.releaseToolStripMenuItem,
+            this.releaseAllToolStripMenuItem});
+            this.toolStripButton1.Image = global::ScriptEd.Properties.Resources.lock_ico;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 22);
+            this.toolStripButton1.Text = "Lock / release";
+            // 
+            // lockToolStripMenuItem
+            // 
+            this.lockToolStripMenuItem.Name = "lockToolStripMenuItem";
+            this.lockToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.lockToolStripMenuItem.Text = "Lock";
+            // 
+            // lockAllToolStripMenuItem
+            // 
+            this.lockAllToolStripMenuItem.Name = "lockAllToolStripMenuItem";
+            this.lockAllToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.lockAllToolStripMenuItem.Text = "Lock all";
+            // 
+            // releaseToolStripMenuItem
+            // 
+            this.releaseToolStripMenuItem.Name = "releaseToolStripMenuItem";
+            this.releaseToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.releaseToolStripMenuItem.Text = "Release";
+            // 
+            // releaseAllToolStripMenuItem
+            // 
+            this.releaseAllToolStripMenuItem.Name = "releaseAllToolStripMenuItem";
+            this.releaseAllToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.releaseAllToolStripMenuItem.Text = "Release all";
+            // 
+            // faceplayerBt
+            // 
+            this.faceplayerBt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.faceplayerBt.Image = global::ScriptEd.Properties.Resources.faceplayer;
+            this.faceplayerBt.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(197)))), ((int)(((byte)(165)))));
+            this.faceplayerBt.Name = "faceplayerBt";
+            this.faceplayerBt.Size = new System.Drawing.Size(23, 22);
+            this.faceplayerBt.Text = "Face player";
+            // 
+            // ayudaToolStripButton
+            // 
+            this.ayudaToolStripButton.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.ayudaToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.ayudaToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("ayudaToolStripButton.Image")));
+            this.ayudaToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ayudaToolStripButton.Name = "ayudaToolStripButton";
+            this.ayudaToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.ayudaToolStripButton.Text = "Ay&uda";
+            // 
+            // label13
+            // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label13.AutoSize = true;
+            this.tableLayoutPanel7.SetColumnSpan(this.label13, 3);
+            this.label13.Location = new System.Drawing.Point(67, 128);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(90, 32);
+            this.label13.TabIndex = 15;
+            this.label13.Text = "Move speed:";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.tableLayoutPanel14);
+            this.groupBox10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox10.Location = new System.Drawing.Point(3, 266);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(274, 257);
+            this.groupBox10.TabIndex = 1;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Movement settings";
+            // 
+            // tableLayoutPanel14
+            // 
+            this.tableLayoutPanel14.ColumnCount = 3;
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel14.Controls.Add(this.moveList_moves, 0, 2);
+            this.tableLayoutPanel14.Controls.Add(this.label14, 0, 1);
+            this.tableLayoutPanel14.Controls.Add(this.movID_moves, 1, 1);
+            this.tableLayoutPanel14.Controls.Add(this.label22, 0, 0);
+            this.tableLayoutPanel14.Controls.Add(this.numOw_moves, 1, 0);
+            this.tableLayoutPanel14.Controls.Add(this.gotoAdvancedBt_moves, 2, 0);
+            this.tableLayoutPanel14.Controls.Add(this.tableLayoutPanel15, 2, 2);
+            this.tableLayoutPanel14.Controls.Add(this.insertMoveBt_moves, 1, 3);
+            this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+            this.tableLayoutPanel14.RowCount = 4;
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(268, 238);
+            this.tableLayoutPanel14.TabIndex = 0;
+            // 
+            // moveList_moves
+            // 
+            this.tableLayoutPanel14.SetColumnSpan(this.moveList_moves, 2);
+            this.moveList_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.moveList_moves.FormattingEnabled = true;
+            this.moveList_moves.Location = new System.Drawing.Point(3, 58);
+            this.moveList_moves.Name = "moveList_moves";
+            this.moveList_moves.Size = new System.Drawing.Size(182, 147);
+            this.moveList_moves.TabIndex = 0;
+            // 
+            // label14
+            // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(3, 30);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(74, 25);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "Movement ID:";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // movID_moves
+            // 
+            this.tableLayoutPanel14.SetColumnSpan(this.movID_moves, 2);
+            this.movID_moves.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.movID_moves.Location = new System.Drawing.Point(83, 33);
+            this.movID_moves.Name = "movID_moves";
+            this.movID_moves.Size = new System.Drawing.Size(182, 20);
+            this.movID_moves.TabIndex = 2;
+            // 
+            // label22
+            // 
+            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(3, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(74, 30);
+            this.label22.TabIndex = 3;
+            this.label22.Text = "Mini No.:";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // numOw_moves
+            // 
+            this.numOw_moves.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.numOw_moves.Location = new System.Drawing.Point(83, 5);
+            this.numOw_moves.Name = "numOw_moves";
+            this.numOw_moves.Size = new System.Drawing.Size(102, 20);
+            this.numOw_moves.TabIndex = 4;
+            // 
+            // gotoAdvancedBt_moves
+            // 
+            this.gotoAdvancedBt_moves.Location = new System.Drawing.Point(191, 3);
+            this.gotoAdvancedBt_moves.Name = "gotoAdvancedBt_moves";
+            this.gotoAdvancedBt_moves.Size = new System.Drawing.Size(74, 23);
+            this.gotoAdvancedBt_moves.TabIndex = 5;
+            this.gotoAdvancedBt_moves.Text = "Advanced";
+            this.gotoAdvancedBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel15
+            // 
+            this.tableLayoutPanel15.ColumnCount = 1;
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel15.Controls.Add(this.firstBt_moves, 0, 0);
+            this.tableLayoutPanel15.Controls.Add(this.upBt_moves, 0, 1);
+            this.tableLayoutPanel15.Controls.Add(this.removeBt_moves, 0, 2);
+            this.tableLayoutPanel15.Controls.Add(this.downBt_moves, 0, 3);
+            this.tableLayoutPanel15.Controls.Add(this.lastBt_moves, 0, 4);
+            this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(191, 58);
+            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+            this.tableLayoutPanel15.RowCount = 5;
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(74, 147);
+            this.tableLayoutPanel15.TabIndex = 6;
+            // 
+            // insertMoveBt_moves
+            // 
+            this.insertMoveBt_moves.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.insertMoveBt_moves.Location = new System.Drawing.Point(96, 211);
+            this.insertMoveBt_moves.Name = "insertMoveBt_moves";
+            this.insertMoveBt_moves.Size = new System.Drawing.Size(75, 23);
+            this.insertMoveBt_moves.TabIndex = 7;
+            this.insertMoveBt_moves.Text = "<< Insert";
+            this.insertMoveBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // firstBt_moves
+            // 
+            this.firstBt_moves.Location = new System.Drawing.Point(3, 3);
+            this.firstBt_moves.Name = "firstBt_moves";
+            this.firstBt_moves.Size = new System.Drawing.Size(68, 23);
+            this.firstBt_moves.TabIndex = 0;
+            this.firstBt_moves.Text = "First";
+            this.firstBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // upBt_moves
+            // 
+            this.upBt_moves.Location = new System.Drawing.Point(3, 32);
+            this.upBt_moves.Name = "upBt_moves";
+            this.upBt_moves.Size = new System.Drawing.Size(68, 23);
+            this.upBt_moves.TabIndex = 1;
+            this.upBt_moves.Text = "Up";
+            this.upBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // removeBt_moves
+            // 
+            this.removeBt_moves.Location = new System.Drawing.Point(3, 61);
+            this.removeBt_moves.Name = "removeBt_moves";
+            this.removeBt_moves.Size = new System.Drawing.Size(68, 23);
+            this.removeBt_moves.TabIndex = 2;
+            this.removeBt_moves.Text = "Remove";
+            this.removeBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // downBt_moves
+            // 
+            this.downBt_moves.Location = new System.Drawing.Point(3, 90);
+            this.downBt_moves.Name = "downBt_moves";
+            this.downBt_moves.Size = new System.Drawing.Size(68, 23);
+            this.downBt_moves.TabIndex = 3;
+            this.downBt_moves.Text = "Down";
+            this.downBt_moves.UseVisualStyleBackColor = true;
+            // 
+            // lastBt_moves
+            // 
+            this.lastBt_moves.Location = new System.Drawing.Point(3, 119);
+            this.lastBt_moves.Name = "lastBt_moves";
+            this.lastBt_moves.Size = new System.Drawing.Size(68, 23);
+            this.lastBt_moves.TabIndex = 4;
+            this.lastBt_moves.Text = "Last";
+            this.lastBt_moves.UseVisualStyleBackColor = true;
             // 
             // mainWindow
             // 
@@ -3594,14 +3889,9 @@
             this.flowLayoutPanel5.ResumeLayout(false);
             this.flowLayoutPanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            this.soundTab.ResumeLayout(false);
+            this.moveTab.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
-            this.tableLayoutPanel7.ResumeLayout(false);
-            this.flowLayoutPanel7.ResumeLayout(false);
-            this.flowLayoutPanel7.PerformLayout();
-            this.flowLayoutPanel6.ResumeLayout(false);
-            this.flowLayoutPanel6.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -3611,6 +3901,15 @@
             this.tabPage4.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tableLayoutPanel7.ResumeLayout(false);
+            this.tableLayoutPanel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_moves)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moveSpeed_moves)).EndInit();
+            this.groupBox10.ResumeLayout(false);
+            this.tableLayoutPanel14.ResumeLayout(false);
+            this.tableLayoutPanel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numOw_moves)).EndInit();
+            this.tableLayoutPanel15.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3663,20 +3962,8 @@
         private System.Windows.Forms.ToolStripPanel RightToolStripPanel;
         private System.Windows.Forms.ToolStripPanel LeftToolStripPanel;
         private System.Windows.Forms.ToolStripContentPanel ContentPanel;
-        private System.Windows.Forms.TabPage soundTab;
+        private System.Windows.Forms.TabPage moveTab;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel7;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
@@ -3769,6 +4056,35 @@
         private System.Windows.Forms.ToolStripMenuItem compileToolStripMenuItem;
         private System.Windows.Forms.TreeView stringBox;
         private System.Windows.Forms.ImageList textIcon;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
+        private System.Windows.Forms.Button stepRightBt_moves;
+        private System.Windows.Forms.Button stepLeftBt_Moves;
+        private System.Windows.Forms.Button stepDownBt_moves;
+        private System.Windows.Forms.Button stepUpBt_moves;
+        private System.Windows.Forms.PictureBox mini_moves;
+        private System.Windows.Forms.TrackBar moveSpeed_moves;
+        private System.Windows.Forms.Button headExclamBt_moves;
+        private System.Windows.Forms.Button headQuestionBt_moves;
+        private System.Windows.Forms.Button headDoubleHeartBt_moves;
+        private System.Windows.Forms.Button headX_moves;
+        private System.Windows.Forms.Button headSmileBt_moves;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel14;
+        private System.Windows.Forms.ListBox moveList_moves;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox movID_moves;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.NumericUpDown numOw_moves;
+        private System.Windows.Forms.Button gotoAdvancedBt_moves;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
+        private System.Windows.Forms.Button insertMoveBt_moves;
+        private System.Windows.Forms.Button firstBt_moves;
+        private System.Windows.Forms.Button upBt_moves;
+        private System.Windows.Forms.Button removeBt_moves;
+        private System.Windows.Forms.Button downBt_moves;
+        private System.Windows.Forms.Button lastBt_moves;
     }
 }
 

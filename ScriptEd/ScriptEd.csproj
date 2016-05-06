@@ -226,6 +226,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="commands.txt" />
+    <None Include="Resources\mini_8.bmp" />
+    <None Include="Resources\mini_7.bmp" />
+    <None Include="Resources\mini_6.bmp" />
+    <None Include="Resources\mini_5.bmp" />
+    <None Include="Resources\mini_4.bmp" />
+    <None Include="Resources\mini_3.bmp" />
+    <None Include="Resources\mini_2.bmp" />
+    <None Include="Resources\mini_1.bmp" />
+    <None Include="Resources\mini_0.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

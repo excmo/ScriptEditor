@@ -63,16 +63,6 @@ namespace ScriptEd.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _lock {
-            get {
-                object obj = ResourceManager.GetObject("lock", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap bg_fr {
             get {
                 object obj = ResourceManager.GetObject("bg_fr", resourceCulture);
@@ -226,6 +216,16 @@ namespace ScriptEd.Properties {
         internal static System.Drawing.Bitmap light_green {
             get {
                 object obj = ResourceManager.GetObject("light_green", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lock_ico {
+            get {
+                object obj = ResourceManager.GetObject("lock_ico", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

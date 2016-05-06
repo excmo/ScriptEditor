@@ -31,6 +31,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -40,6 +41,7 @@
             this.offsetFix = new System.Windows.Forms.TextBox();
             this.romEdit = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.scriptName = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
@@ -56,8 +58,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.openScriptFiles = new System.Windows.Forms.OpenFileDialog();
-            this.scriptName = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -114,6 +114,15 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(272, 151);
             this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(3, 87);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(72, 13);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Script pointer:";
             // 
             // label1
             // 
@@ -222,6 +231,14 @@
             this.button1.Text = "Create new";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.createNewFile);
+            // 
+            // scriptName
+            // 
+            this.scriptName.Dock = System.Windows.Forms.DockStyle.Top;
+            this.scriptName.Location = new System.Drawing.Point(81, 90);
+            this.scriptName.Name = "scriptName";
+            this.scriptName.Size = new System.Drawing.Size(191, 20);
+            this.scriptName.TabIndex = 6;
             // 
             // groupBox2
             // 
@@ -387,23 +404,6 @@
             // openScriptFiles
             // 
             this.openScriptFiles.Filter = "FireRed Script Files|*.gfr|Ruby Script Files|*.grs|Emerald Script Files|*.gem";
-            // 
-            // scriptName
-            // 
-            this.scriptName.Dock = System.Windows.Forms.DockStyle.Top;
-            this.scriptName.Location = new System.Drawing.Point(81, 90);
-            this.scriptName.Name = "scriptName";
-            this.scriptName.Size = new System.Drawing.Size(191, 20);
-            this.scriptName.TabIndex = 6;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 87);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(72, 13);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Script pointer:";
             // 
             // startDialog
             // 
