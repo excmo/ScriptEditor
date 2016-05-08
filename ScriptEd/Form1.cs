@@ -43,16 +43,40 @@ namespace ScriptEd
             {
                 romTypeText.Text = "Ruby";
                 romTypeText.ForeColor = Color.DarkRed;
+                movedir6.Text = "❤";
+                movedir6.Font = new Font(movedir6.Font.Name, movedir6.Font.Size, FontStyle.Regular);
+                movedir7.Enabled = false;
+                movedir7.Visible = false;
+                movedir8.Enabled = false;
+                movedir8.Visible = false;
+                moveSpeed_moves.Value = 2;
+                moveSpeed_moves.Maximum = 2;
             }
             if (ScriptEd.Program.romType == 1)
             {
                 romTypeText.Text = "FireRed";
                 romTypeText.ForeColor = Color.OrangeRed;
+                movedir6.Text = "!!";
+                movedir6.Font = new Font(movedir6.Font.Name, movedir6.Font.Size, FontStyle.Bold);
+                movedir7.Enabled = true;
+                movedir7.Visible = true;
+                movedir8.Enabled = true;
+                movedir8.Visible = true;
+                moveSpeed_moves.Value = 3;
+                moveSpeed_moves.Maximum = 4;
             }
             if (ScriptEd.Program.romType == 2)
             {
                 romTypeText.Text = "Emerald";
                 romTypeText.ForeColor = Color.DarkGreen;
+                movedir6.Text = "❤";
+                movedir6.Font = new Font(movedir6.Font.Name, movedir6.Font.Size, FontStyle.Regular);
+                movedir7.Enabled = false;
+                movedir7.Visible = false;
+                movedir8.Enabled = false;
+                movedir8.Visible = false;
+                moveSpeed_moves.Value = 3;
+                moveSpeed_moves.Maximum = 2;
             }
             if(ScriptEd.Program.offType==0)
             {
@@ -211,6 +235,48 @@ namespace ScriptEd
 
         }
 
+        //Quick movement menú
+
+        private void moveButtonClick(object sender, EventArgs e)
+        {
+            int rom;
+            Button clicked = (Button)sender;
+            string dirChar = "" + clicked.Name[7];
+            int dir;
+            rom = Program.romType;
+            if (rom == 2) { rom = 0; }
+            dir = int.Parse(dirChar);
+            newMovement(dir, moveSpeed_moves.Value, rom);
+        }
+
+        private void newMovement(int dir, int vel, int rom)
+        {
+            //rom: 0->rse , 1->frlg
+            //dir: 0->down, 1->up, 2->right, 3->left, 4->head
+            //vel: 0->look
+            string newMove;
+            int index = 3 * rom + vel;
+            string[] dnRaw = {/*RSE*/ "#RAW 0x0 'Look down"       , "#RAW 0x4 'Step down (slow)" , "#RAW 0x8  'Step down (normal)"    , /*FRLG*/ "#RAW 0x0 'Look down"  , "#RAW 0x8 'Step down (very slow)"  , "#RAW 0xC 'Step down (slow)" , "#RAW 0x10 'Step down" , "#RAW 0x1D 'Step down (fast)"  };
+            string[] upRaw = {/*RSE*/ "#RAW 0x1 'Look up"         , "#RAW 0x5 'Step up (slow)"   , "#RAW 0x9  'Step up (normal)"      , /*FRLG*/ "#RAW 0x1 'Look up"    , "#RAW 0x9 'Step up (very slow)"    , "#RAW 0xD 'Step up (slow)"   , "#RAW 0x11 'Step up"   , "#RAW 0x1E 'Step up (fast)"    };
+            string[] rgRaw = {/*RSE*/ "#RAW 0x2 'Look right"      , "#RAW 0x6 'Step right (slow)", "#RAW 0x10 'Step right (normal)"   , /*FRLG*/ "#RAW 0x2 'Look right" , "#RAW 0xA 'Step right (very slow)" , "#RAW 0xE 'Step right (slow)", "#RAW 0x12 'Step right", "#RAW 0x1F 'Step right (fast)" };
+            string[] lfRaw = {/*RSE*/ "#RAW 0x3 'Look left"       , "#RAW 0x7 'Step left (slow)" , "#RAW 0x11 'Step left (normal)"    , /*FRLG*/ "#RAW 0x3 'Look left"  , "#RAW 0xB 'Step left (very slow)"  , "#RAW 0xF 'Step left (slow)" , "#RAW 0x13 'Step left" , "#RAW 0x20 'Step left (fast)"  };
+
+            string[] hdRaw = {/*RSE*/ "#RAW 0x56 'Exclamation (!)", "#RAW 0x57 'Question (?)"    , "RAW 0x58 'Heart (<3)"             ,
+                              /*FRLG*/"#RAW 0x62 'Exclamation (!)", "#RAW 0x63 'Question (?)"    , "RAW 0x65 'Double exclamation (!!)",          "RAW 0x64 'Ex (X)"     , "RAW 0x66 'Happy (^_^)"           };
+
+            switch (dir)
+            {
+                case 0:  newMove = dnRaw[index]; break;
+                case 1:  newMove = upRaw[index]; break;
+                case 2:  newMove = rgRaw[index]; break;
+                case 3:  newMove = lfRaw[index]; break;
+                default: newMove = hdRaw[3 * rom + dir - 4]; break;
+            }
+
+            moveList_moves.Items.Add(newMove);
+        }
+
+        //Compilation
         private void compileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             commandsString = compileObject.commands();
@@ -357,6 +423,5 @@ namespace ScriptEd
             return count;
         }
 
-       
     }
 }

@@ -226,6 +226,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="commands.txt" />
+    <None Include="Resources\up1.png" />
+    <None Include="Resources\right1.png" />
+    <None Include="Resources\left1.png" />
+    <None Include="Resources\down1.png" />
+    <None Include="Resources\up.png" />
+    <None Include="Resources\right.png" />
+    <None Include="Resources\left.png" />
+    <None Include="Resources\down.png" />
     <None Include="Resources\mini_8.bmp" />
     <None Include="Resources\mini_7.bmp" />
     <None Include="Resources\mini_6.bmp" />
