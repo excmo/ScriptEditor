@@ -198,6 +198,7 @@
             this.RightToolStripPanel = new System.Windows.Forms.ToolStripPanel();
             this.LeftToolStripPanel = new System.Windows.Forms.ToolStripPanel();
             this.ContentPanel = new System.Windows.Forms.ToolStripContentPanel();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -3691,6 +3692,7 @@
             // 
             // tabControl2
             // 
+            this.tabControl2.Controls.Add(this.tabPage5);
             this.tabControl2.Controls.Add(this.tabPage4);
             this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl2.Location = new System.Drawing.Point(0, 0);
@@ -3822,6 +3824,16 @@
             // 
             this.ContentPanel.Size = new System.Drawing.Size(280, 501);
             // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(785, 238);
+            this.tabPage5.TabIndex = 1;
+            this.tabPage5.Text = "Easy View";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
             // mainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3834,7 +3846,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "mainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Glitched Script Editor";
+            this.Text = "Glitched BEST Editor";
             this.Shown += new System.EventHandler(this.openFirst);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -4096,6 +4108,7 @@
         private System.Windows.Forms.Button removeBt_moves;
         private System.Windows.Forms.Button downBt_moves;
         private System.Windows.Forms.Button lastBt_moves;
+        private System.Windows.Forms.TabPage tabPage5;
     }
 }
 
