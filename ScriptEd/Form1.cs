@@ -37,57 +37,7 @@ namespace ScriptEd
 
         private void openFirst(object sender, EventArgs e)
         {
-            startDialog start = new startDialog();
-            start.ShowDialog();
-            if(ScriptEd.Program.romType==0)
-            {
-                romTypeText.Text = "Ruby";
-                romTypeText.ForeColor = Color.DarkRed;
-                movedir6.Text = "❤";
-                movedir6.Font = new Font(movedir6.Font.Name, movedir6.Font.Size, FontStyle.Regular);
-                movedir7.Enabled = false;
-                movedir7.Visible = false;
-                movedir8.Enabled = false;
-                movedir8.Visible = false;
-                moveSpeed_moves.Value = 2;
-                moveSpeed_moves.Maximum = 2;
-            }
-            if (ScriptEd.Program.romType == 1)
-            {
-                romTypeText.Text = "FireRed";
-                romTypeText.ForeColor = Color.OrangeRed;
-                movedir6.Text = "!!";
-                movedir6.Font = new Font(movedir6.Font.Name, movedir6.Font.Size, FontStyle.Bold);
-                movedir7.Enabled = true;
-                movedir7.Visible = true;
-                movedir8.Enabled = true;
-                movedir8.Visible = true;
-                moveSpeed_moves.Value = 3;
-                moveSpeed_moves.Maximum = 4;
-            }
-            if (ScriptEd.Program.romType == 2)
-            {
-                romTypeText.Text = "Emerald";
-                romTypeText.ForeColor = Color.DarkGreen;
-                movedir6.Text = "❤";
-                movedir6.Font = new Font(movedir6.Font.Name, movedir6.Font.Size, FontStyle.Regular);
-                movedir7.Enabled = false;
-                movedir7.Visible = false;
-                movedir8.Enabled = false;
-                movedir8.Visible = false;
-                moveSpeed_moves.Value = 3;
-                moveSpeed_moves.Maximum = 2;
-            }
-            if(ScriptEd.Program.offType==0)
-            {
-                scriptBox.Text = "#dynamic 0x" + ScriptEd.Program.dynamicOffset;
-                scriptBox.Text = scriptBox.Text + System.Environment.NewLine + "'--------------" + System.Environment.NewLine + "#org @"+ ScriptEd.Program.currentScriptId + System.Environment.NewLine;
-            }
-            else
-            {
-                scriptBox.Text = "#org 0x" + ScriptEd.Program.fixedOffset;
-                scriptBox.Text = scriptBox.Text + System.Environment.NewLine;
-            }
+
         }
 
         private void hexToDec(object sender, EventArgs e)
@@ -150,10 +100,25 @@ namespace ScriptEd
             ScriptEd.Program.pokepic_y = 3;
         }
 
-        private void giveEgg(object sender, EventArgs e)
+        private void doPokeAction(object sender, EventArgs e)
         {
-            scriptBox.Text = scriptBox.Text + "Giveegg 0x"+convert.decToHex(eggPokeName.SelectedIndex)+" 'Gives an egg of "+eggPokeName.Text;
-            scriptBox.Text = scriptBox.Text + System.Environment.NewLine;
+            switch (givePokeCombo.SelectedIndex)
+            {
+                case 0: //Give poke
+                    scriptBox.Text = scriptBox.Text + "Givepokemon 0x" + convert.decToHex(pokeList.SelectedIndex) + " 0x" + convert.decToHex((int)pokeLevel.Value) + " 0x" + convert.decToHex(heldItemList.SelectedIndex) + " 0x0 0x0 0x0 'Gives " + pokeList.Text + " at Level " + pokeLevel.Value + " holding " + heldItemList.Text;
+                    scriptBox.Text = scriptBox.Text + System.Environment.NewLine;
+                    break;
+                case 1: //Wild poke
+                    scriptBox.Text = scriptBox.Text + "Wildbattle 0x" + convert.decToHex(pokeList.SelectedIndex) + " 0x" + convert.decToHex((int)pokeLevel.Value) + " 0x" + convert.decToHex(heldItemList.SelectedIndex) + " 'Wild " + pokeList.Text + " appeared at Level " + pokeLevel.Value + " holding " + heldItemList.Text;
+                    scriptBox.Text = scriptBox.Text + System.Environment.NewLine;
+                    break;
+                case 2: //Give egg
+                    scriptBox.Text = scriptBox.Text + "Giveegg 0x" + convert.decToHex(pokeList.SelectedIndex) + " 'Gives an egg of " + pokeList.Text;
+                    scriptBox.Text = scriptBox.Text + System.Environment.NewLine;
+                    break;
+                default: break;
+            }
+            
         }
 
         private void movBt_Click(object sender, EventArgs e)
@@ -421,6 +386,11 @@ namespace ScriptEd
 
             offset += count;
             return count;
+        }
+
+        private void saveScriptToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
 
     }

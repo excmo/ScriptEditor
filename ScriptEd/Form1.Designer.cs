@@ -77,49 +77,16 @@
             this.HTD = new System.Windows.Forms.TextBox();
             this.copyHex_bt = new System.Windows.Forms.Button();
             this.pokeTab = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
-            this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
             this.btGiveEgg = new System.Windows.Forms.Button();
-            this.flowLayoutPanel17 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.eggPokeName = new System.Windows.Forms.ComboBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.picPokeName = new System.Windows.Forms.ComboBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.pokepicX = new System.Windows.Forms.NumericUpDown();
-            this.label18 = new System.Windows.Forms.Label();
             this.pokepicY = new System.Windows.Forms.NumericUpDown();
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
             this.btPokePic = new System.Windows.Forms.Button();
             this.btPrevPic = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btWildPoke = new System.Windows.Forms.Button();
-            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.wildPokeName = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.wildPokeLevel = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
-            this.wildPokeItem = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btGivePoke = new System.Windows.Forms.Button();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
-            this.givePokeName = new System.Windows.Forms.ComboBox();
+            this.givePokeCombo = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.givePokeLevel = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
-            this.givePokeItem = new System.Windows.Forms.ComboBox();
+            this.pokeLevel = new System.Windows.Forms.NumericUpDown();
             this.itemTab = new System.Windows.Forms.TabPage();
             this.quickTable = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
@@ -183,8 +150,8 @@
             this.downBt_moves = new System.Windows.Forms.Button();
             this.lastBt_moves = new System.Windows.Forms.Button();
             this.insertMoveBt_moves = new System.Windows.Forms.Button();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.scriptBox = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -198,7 +165,21 @@
             this.RightToolStripPanel = new System.Windows.Forms.ToolStripPanel();
             this.LeftToolStripPanel = new System.Windows.Forms.ToolStripPanel();
             this.ContentPanel = new System.Windows.Forms.ToolStripContentPanel();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.tabControl4 = new System.Windows.Forms.TabControl();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.pokeList = new System.Windows.Forms.ListBox();
+            this.heldItemList = new System.Windows.Forms.ListBox();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.loadROMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveScriptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -210,27 +191,10 @@
             this.flowLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.pokeTab.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.groupBox9.SuspendLayout();
-            this.tableLayoutPanel13.SuspendLayout();
-            this.flowLayoutPanel16.SuspendLayout();
-            this.flowLayoutPanel17.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.tableLayoutPanel6.SuspendLayout();
-            this.flowLayoutPanel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pokepicX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pokepicY)).BeginInit();
             this.flowLayoutPanel10.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.tableLayoutPanel8.SuspendLayout();
-            this.flowLayoutPanel11.SuspendLayout();
-            this.flowLayoutPanel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.wildPokeLevel)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            this.tableLayoutPanel9.SuspendLayout();
-            this.flowLayoutPanel12.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.givePokeLevel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pokeLevel)).BeginInit();
             this.itemTab.SuspendLayout();
             this.quickTable.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
@@ -259,14 +223,22 @@
             this.tableLayoutPanel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numOw_moves)).BeginInit();
             this.tableLayoutPanel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            this.tableLayoutPanel16.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.tabControl4.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            this.tableLayoutPanel17.SuspendLayout();
+            this.tableLayoutPanel18.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -285,15 +257,18 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.compileToolStripMenuItem});
+            this.compileToolStripMenuItem,
+            this.loadROMToolStripMenuItem,
+            this.saveScriptToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // compileToolStripMenuItem
             // 
+            this.compileToolStripMenuItem.Enabled = false;
             this.compileToolStripMenuItem.Name = "compileToolStripMenuItem";
-            this.compileToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.compileToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.compileToolStripMenuItem.Text = "Compile";
             this.compileToolStripMenuItem.Click += new System.EventHandler(this.compileToolStripMenuItem_Click);
             // 
@@ -478,25 +453,25 @@
             // lockToolStripMenuItem
             // 
             this.lockToolStripMenuItem.Name = "lockToolStripMenuItem";
-            this.lockToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.lockToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.lockToolStripMenuItem.Text = "Lock";
             // 
             // lockAllToolStripMenuItem
             // 
             this.lockAllToolStripMenuItem.Name = "lockAllToolStripMenuItem";
-            this.lockAllToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.lockAllToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.lockAllToolStripMenuItem.Text = "Lock all";
             // 
             // releaseToolStripMenuItem
             // 
             this.releaseToolStripMenuItem.Name = "releaseToolStripMenuItem";
-            this.releaseToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.releaseToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.releaseToolStripMenuItem.Text = "Release";
             // 
             // releaseAllToolStripMenuItem
             // 
             this.releaseAllToolStripMenuItem.Name = "releaseAllToolStripMenuItem";
-            this.releaseAllToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.releaseAllToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.releaseAllToolStripMenuItem.Text = "Release all";
             // 
             // faceplayerBt
@@ -527,18 +502,18 @@
             // 
             this.romTypeText.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.romTypeText.BackColor = System.Drawing.SystemColors.Control;
-            this.romTypeText.ForeColor = System.Drawing.SystemColors.Control;
+            this.romTypeText.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.romTypeText.Name = "romTypeText";
-            this.romTypeText.Size = new System.Drawing.Size(58, 22);
-            this.romTypeText.Text = "Rom type";
+            this.romTypeText.Size = new System.Drawing.Size(92, 22);
+            this.romTypeText.Text = "No ROM loaded";
             // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 300F));
+            this.tableLayoutPanel1.Controls.Add(this.tabControl2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel1, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.splitContainer1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 49);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -713,7 +688,7 @@
             // 
             // pokeTab
             // 
-            this.pokeTab.Controls.Add(this.tableLayoutPanel3);
+            this.pokeTab.Controls.Add(this.tableLayoutPanel16);
             this.pokeTab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pokeTab.Location = new System.Drawing.Point(4, 22);
             this.pokeTab.Name = "pokeTab";
@@ -723,1006 +698,21 @@
             this.pokeTab.Text = "Pokémon";
             this.pokeTab.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Controls.Add(this.groupBox9, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.groupBox6, 0, 3);
-            this.tableLayoutPanel3.Controls.Add(this.groupBox5, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.groupBox2, 0, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 5;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 125F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(280, 526);
-            this.tableLayoutPanel3.TabIndex = 0;
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.tableLayoutPanel13);
-            this.groupBox9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox9.Location = new System.Drawing.Point(3, 128);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(274, 119);
-            this.groupBox9.TabIndex = 8;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Give egg";
-            // 
-            // tableLayoutPanel13
-            // 
-            this.tableLayoutPanel13.ColumnCount = 1;
-            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel13.Controls.Add(this.flowLayoutPanel16, 0, 1);
-            this.tableLayoutPanel13.Controls.Add(this.flowLayoutPanel17, 0, 0);
-            this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 16);
-            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
-            this.tableLayoutPanel13.RowCount = 2;
-            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel13.Size = new System.Drawing.Size(268, 100);
-            this.tableLayoutPanel13.TabIndex = 0;
-            // 
-            // flowLayoutPanel16
-            // 
-            this.flowLayoutPanel16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.flowLayoutPanel16.AutoSize = true;
-            this.flowLayoutPanel16.Controls.Add(this.btGiveEgg);
-            this.flowLayoutPanel16.Location = new System.Drawing.Point(93, 65);
-            this.flowLayoutPanel16.Name = "flowLayoutPanel16";
-            this.flowLayoutPanel16.Size = new System.Drawing.Size(81, 29);
-            this.flowLayoutPanel16.TabIndex = 10;
-            // 
             // btGiveEgg
             // 
             this.btGiveEgg.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btGiveEgg.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel17.SetColumnSpan(this.btGiveEgg, 2);
+            this.btGiveEgg.Location = new System.Drawing.Point(92, 56);
             this.btGiveEgg.Name = "btGiveEgg";
             this.btGiveEgg.Size = new System.Drawing.Size(75, 23);
             this.btGiveEgg.TabIndex = 13;
             this.btGiveEgg.Text = "<< Insert";
             this.btGiveEgg.UseVisualStyleBackColor = true;
-            this.btGiveEgg.Click += new System.EventHandler(this.giveEgg);
-            // 
-            // flowLayoutPanel17
-            // 
-            this.flowLayoutPanel17.Controls.Add(this.label21);
-            this.flowLayoutPanel17.Controls.Add(this.eggPokeName);
-            this.flowLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel17.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel17.Name = "flowLayoutPanel17";
-            this.flowLayoutPanel17.Size = new System.Drawing.Size(262, 54);
-            this.flowLayoutPanel17.TabIndex = 9;
-            // 
-            // label21
-            // 
-            this.label21.Location = new System.Drawing.Point(3, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(80, 21);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Give an egg of";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // eggPokeName
-            // 
-            this.eggPokeName.FormattingEnabled = true;
-            this.eggPokeName.Items.AddRange(new object[] {
-            "??????????",
-            "BULBASAUR",
-            "IVYSAUR",
-            "VENUSAUR",
-            "CHARMANDER",
-            "CHARMELEON",
-            "CHARIZARD",
-            "SQUIRTLE",
-            "WARTORTLE",
-            "BLASTOISE",
-            "CATERPIE",
-            "METAPOD",
-            "BUTTERFREE",
-            "WEEDLE",
-            "KAKUNA",
-            "BEEDRILL",
-            "PIDGEY",
-            "PIDGEOTTO",
-            "PIDGEOT",
-            "RATTATA",
-            "RATICATE",
-            "SPEAROW",
-            "FEAROW",
-            "EKANS",
-            "ARBOK",
-            "PIKACHU",
-            "RAICHU",
-            "SANDSHREW",
-            "SANDSLASH",
-            "NIDORAN[F]",
-            "NIDORINA",
-            "NIDOQUEEN",
-            "NIDORAN[M]",
-            "NIDORINO",
-            "NIDOKING",
-            "CLEFAIRY",
-            "CLEFABLE",
-            "VULPIX",
-            "NINETALES",
-            "JIGGLYPUFF",
-            "WIGGLYTUFF",
-            "ZUBAT",
-            "GOLBAT",
-            "ODDISH",
-            "GLOOM",
-            "VILEPLUME",
-            "PARAS",
-            "PARASECT",
-            "VENONAT",
-            "VENOMOTH",
-            "DIGLETT",
-            "DUGTRIO",
-            "MEOWTH",
-            "PERSIAN",
-            "PSYDUCK",
-            "GOLDUCK",
-            "MANKEY",
-            "PRIMEAPE",
-            "GROWLITHE",
-            "ARCANINE",
-            "POLIWAG",
-            "POLIWHIRL",
-            "POLIWRATH",
-            "ABRA",
-            "KADABRA",
-            "ALAKAZAM",
-            "MACHOP",
-            "MACHOKE",
-            "MACHAMP",
-            "BELLSPROUT",
-            "WEEPINBELL",
-            "VICTREEBEL",
-            "TENTACOOL",
-            "TENTACRUEL",
-            "GEODUDE",
-            "GRAVELER",
-            "GOLEM",
-            "PONYTA",
-            "RAPIDASH",
-            "SLOWPOKE",
-            "SLOWBRO",
-            "MAGNEMITE",
-            "MAGNETON",
-            "FARFETCHED",
-            "DODUO",
-            "DODRIO",
-            "SEEL",
-            "DEWGONG",
-            "GRIMER",
-            "MUK",
-            "SHELLDER",
-            "CLOYSTER",
-            "GASTLY",
-            "HAUNTER",
-            "GENGAR",
-            "ONIX",
-            "DROWZEE",
-            "HYPNO",
-            "KRABBY",
-            "KINGLER",
-            "VOLTORB",
-            "ELECTRODE",
-            "EXEGGCUTE",
-            "EXEGGUTOR",
-            "CUBONE",
-            "MAROWAK",
-            "HITMONLEE",
-            "HITMONCHAN",
-            "LICKITUNG",
-            "KOFFING",
-            "WEEZING",
-            "RHYHORN",
-            "RHYDON",
-            "CHANSEY",
-            "TANGELA",
-            "KANGASKHAN",
-            "HORSEA",
-            "SEADRA",
-            "GOLDEEN",
-            "SEAKING",
-            "STARYU",
-            "STARMIE",
-            "MRMIME",
-            "SCYTHER",
-            "JYNX",
-            "ELECTABUZZ",
-            "MAGMAR",
-            "PINSIR",
-            "TAUROS",
-            "MAGIKARP",
-            "GYARADOS",
-            "LAPRAS",
-            "DITTO",
-            "EEVEE",
-            "VAPOREON",
-            "JOLTEON",
-            "FLAREON",
-            "PORYGON",
-            "OMANYTE",
-            "OMASTAR",
-            "KABUTO",
-            "KABUTOPS",
-            "AERODACTYL",
-            "SNORLAX",
-            "ARTICUNO",
-            "ZAPDOS",
-            "MOLTRES",
-            "DRATINI",
-            "DRAGONAIR",
-            "DRAGONITE",
-            "MEWTWO",
-            "MEW",
-            "CHIKORITA",
-            "BAYLEEF",
-            "MEGANIUM",
-            "CYNDAQUIL",
-            "QUILAVA",
-            "TYPHLOSION",
-            "TOTODILE",
-            "CROCONAW",
-            "FERALIGATR",
-            "SENTRET",
-            "FURRET",
-            "HOOTHOOT",
-            "NOCTOWL",
-            "LEDYBA",
-            "LEDIAN",
-            "SPINARAK",
-            "ARIADOS",
-            "CROBAT",
-            "CHINCHOU",
-            "LANTURN",
-            "PICHU",
-            "CLEFFA",
-            "IGGLYBUFF",
-            "TOGEPI",
-            "TOGETIC",
-            "NATU",
-            "XATU",
-            "MAREEP",
-            "FLAAFFY",
-            "AMPHAROS",
-            "BELLOSSOM",
-            "MARILL",
-            "AZUMARILL",
-            "SUDOWOODO",
-            "POLITOED",
-            "HOPPIP",
-            "SKIPLOOM",
-            "JUMPLUFF",
-            "AIPOM",
-            "SUNKERN",
-            "SUNFLORA",
-            "YANMA",
-            "WOOPER",
-            "QUAGSIRE",
-            "ESPEON",
-            "UMBREON",
-            "MURKROW",
-            "SLOWKING",
-            "MISDREAVUS",
-            "UNOWN",
-            "WOBBUFFET",
-            "GIRAFARIG",
-            "PINECO",
-            "FORRETRESS",
-            "DUNSPARCE",
-            "GLIGAR",
-            "STEELIX",
-            "SNUBBULL",
-            "GRANBULL",
-            "QWILFISH",
-            "SCIZOR",
-            "SHUCKLE",
-            "HERACROSS",
-            "SNEASEL",
-            "TEDDIURSA",
-            "URSARING",
-            "SLUGMA",
-            "MAGCARGO",
-            "SWINUB",
-            "PILOSWINE",
-            "CORSOLA",
-            "REMORAID",
-            "OCTILLERY",
-            "DELIBIRD",
-            "MANTINE",
-            "SKARMORY",
-            "HOUNDOUR",
-            "HOUNDOOM",
-            "KINGDRA",
-            "PHANPY",
-            "DONPHAN",
-            "PORYGON",
-            "STANTLER",
-            "SMEARGLE",
-            "TYROGUE",
-            "HITMONTOP",
-            "SMOOCHUM",
-            "ELEKID",
-            "MAGBY",
-            "MILTANK",
-            "BLISSEY",
-            "RAIKOU",
-            "ENTEI",
-            "SUICUNE",
-            "LARVITAR",
-            "PUPITAR",
-            "TYRANITAR",
-            "LUGIA",
-            "HOOH",
-            "CELEBI",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "TREECKO",
-            "GROVYLE",
-            "SCEPTILE",
-            "TORCHIC",
-            "COMBUSKEN",
-            "BLAZIKEN",
-            "MUDKIP",
-            "MARSHTOMP",
-            "SWAMPERT",
-            "POOCHYENA",
-            "MIGHTYENA",
-            "ZIGZAGOON",
-            "LINOONE",
-            "WURMPLE",
-            "SILCOON",
-            "BEAUTIFLY",
-            "CASCOON",
-            "DUSTOX",
-            "LOTAD",
-            "LOMBRE",
-            "LUDICOLO",
-            "SEEDOT",
-            "NUZLEAF",
-            "SHIFTRY",
-            "NINCADA",
-            "NINJASK",
-            "SHEDINJA",
-            "TAILLOW",
-            "SWELLOW",
-            "SHROOMISH",
-            "BRELOOM",
-            "SPINDA",
-            "WINGULL",
-            "PELIPPER",
-            "SURSKIT",
-            "MASQUERAIN",
-            "WAILMER",
-            "WAILORD",
-            "SKITTY",
-            "DELCATTY",
-            "KECLEON",
-            "BALTOY",
-            "CLAYDOL",
-            "NOSEPASS",
-            "TORKOAL",
-            "SABLEYE",
-            "BARBOACH",
-            "WHISCASH",
-            "LUVDISC",
-            "CORPHISH",
-            "CRAWDAUNT",
-            "FEEBAS",
-            "MILOTIC",
-            "CARVANHA",
-            "SHARPEDO",
-            "TRAPINCH",
-            "VIBRAVA",
-            "FLYGON",
-            "MAKUHITA",
-            "HARIYAMA",
-            "ELECTRIKE",
-            "MANECTRIC",
-            "NUMEL",
-            "CAMERUPT",
-            "SPHEAL",
-            "SEALEO",
-            "WALREIN",
-            "CACNEA",
-            "CACTURNE",
-            "SNORUNT",
-            "GLALIE",
-            "LUNATONE",
-            "SOLROCK",
-            "AZURILL",
-            "SPOINK",
-            "GRUMPIG",
-            "PLUSLE",
-            "MINUN",
-            "MAWILE",
-            "MEDITITE",
-            "MEDICHAM",
-            "SWABLU",
-            "ALTARIA",
-            "WYNAUT",
-            "DUSKULL",
-            "DUSCLOPS",
-            "ROSELIA",
-            "SLAKOTH",
-            "VIGOROTH",
-            "SLAKING",
-            "GULPIN",
-            "SWALOT",
-            "TROPIUS",
-            "WHISMUR",
-            "LOUDRED",
-            "EXPLOUD",
-            "CLAMPERL",
-            "HUNTAIL",
-            "GOREBYSS",
-            "ABSOL",
-            "SHUPPET",
-            "BANETTE",
-            "SEVIPER",
-            "ZANGOOSE",
-            "RELICANTH",
-            "ARON",
-            "LAIRON",
-            "AGGRON",
-            "CASTFORM",
-            "VOLBEAT",
-            "ILLUMISE",
-            "LILEEP",
-            "CRADILY",
-            "ANORITH",
-            "ARMALDO",
-            "RALTS",
-            "KIRLIA",
-            "GARDEVOIR",
-            "BAGON",
-            "SHELGON",
-            "SALAMENCE",
-            "BELDUM",
-            "METANG",
-            "METAGROSS",
-            "REGIROCK",
-            "REGICE",
-            "REGISTEEL",
-            "KYOGRE",
-            "GROUDON",
-            "RAYQUAZA",
-            "LATIAS",
-            "LATIOS",
-            "JIRACHI",
-            "DEOXYS",
-            "CHIMECHO"});
-            this.eggPokeName.Location = new System.Drawing.Point(89, 3);
-            this.eggPokeName.Name = "eggPokeName";
-            this.eggPokeName.Size = new System.Drawing.Size(100, 21);
-            this.eggPokeName.TabIndex = 1;
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.AutoSize = true;
-            this.groupBox6.Controls.Add(this.tableLayoutPanel6);
-            this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox6.Location = new System.Drawing.Point(3, 378);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(274, 119);
-            this.groupBox6.TabIndex = 7;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Show picture";
-            // 
-            // tableLayoutPanel6
-            // 
-            this.tableLayoutPanel6.ColumnCount = 1;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel6.Controls.Add(this.flowLayoutPanel9, 0, 0);
-            this.tableLayoutPanel6.Controls.Add(this.flowLayoutPanel10, 0, 1);
-            this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 16);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.RowCount = 2;
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(268, 100);
-            this.tableLayoutPanel6.TabIndex = 5;
-            // 
-            // flowLayoutPanel9
-            // 
-            this.flowLayoutPanel9.Controls.Add(this.label15);
-            this.flowLayoutPanel9.Controls.Add(this.picPokeName);
-            this.flowLayoutPanel9.Controls.Add(this.label17);
-            this.flowLayoutPanel9.Controls.Add(this.label16);
-            this.flowLayoutPanel9.Controls.Add(this.pokepicX);
-            this.flowLayoutPanel9.Controls.Add(this.label18);
-            this.flowLayoutPanel9.Controls.Add(this.pokepicY);
-            this.flowLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel9.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel9.Name = "flowLayoutPanel9";
-            this.flowLayoutPanel9.Size = new System.Drawing.Size(262, 54);
-            this.flowLayoutPanel9.TabIndex = 3;
-            // 
-            // label15
-            // 
-            this.label15.Location = new System.Drawing.Point(3, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(83, 21);
-            this.label15.TabIndex = 8;
-            this.label15.Text = "Show picture of";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // picPokeName
-            // 
-            this.picPokeName.FormattingEnabled = true;
-            this.picPokeName.Items.AddRange(new object[] {
-            "??????????",
-            "BULBASAUR",
-            "IVYSAUR",
-            "VENUSAUR",
-            "CHARMANDER",
-            "CHARMELEON",
-            "CHARIZARD",
-            "SQUIRTLE",
-            "WARTORTLE",
-            "BLASTOISE",
-            "CATERPIE",
-            "METAPOD",
-            "BUTTERFREE",
-            "WEEDLE",
-            "KAKUNA",
-            "BEEDRILL",
-            "PIDGEY",
-            "PIDGEOTTO",
-            "PIDGEOT",
-            "RATTATA",
-            "RATICATE",
-            "SPEAROW",
-            "FEAROW",
-            "EKANS",
-            "ARBOK",
-            "PIKACHU",
-            "RAICHU",
-            "SANDSHREW",
-            "SANDSLASH",
-            "NIDORAN[F]",
-            "NIDORINA",
-            "NIDOQUEEN",
-            "NIDORAN[M]",
-            "NIDORINO",
-            "NIDOKING",
-            "CLEFAIRY",
-            "CLEFABLE",
-            "VULPIX",
-            "NINETALES",
-            "JIGGLYPUFF",
-            "WIGGLYTUFF",
-            "ZUBAT",
-            "GOLBAT",
-            "ODDISH",
-            "GLOOM",
-            "VILEPLUME",
-            "PARAS",
-            "PARASECT",
-            "VENONAT",
-            "VENOMOTH",
-            "DIGLETT",
-            "DUGTRIO",
-            "MEOWTH",
-            "PERSIAN",
-            "PSYDUCK",
-            "GOLDUCK",
-            "MANKEY",
-            "PRIMEAPE",
-            "GROWLITHE",
-            "ARCANINE",
-            "POLIWAG",
-            "POLIWHIRL",
-            "POLIWRATH",
-            "ABRA",
-            "KADABRA",
-            "ALAKAZAM",
-            "MACHOP",
-            "MACHOKE",
-            "MACHAMP",
-            "BELLSPROUT",
-            "WEEPINBELL",
-            "VICTREEBEL",
-            "TENTACOOL",
-            "TENTACRUEL",
-            "GEODUDE",
-            "GRAVELER",
-            "GOLEM",
-            "PONYTA",
-            "RAPIDASH",
-            "SLOWPOKE",
-            "SLOWBRO",
-            "MAGNEMITE",
-            "MAGNETON",
-            "FARFETCHED",
-            "DODUO",
-            "DODRIO",
-            "SEEL",
-            "DEWGONG",
-            "GRIMER",
-            "MUK",
-            "SHELLDER",
-            "CLOYSTER",
-            "GASTLY",
-            "HAUNTER",
-            "GENGAR",
-            "ONIX",
-            "DROWZEE",
-            "HYPNO",
-            "KRABBY",
-            "KINGLER",
-            "VOLTORB",
-            "ELECTRODE",
-            "EXEGGCUTE",
-            "EXEGGUTOR",
-            "CUBONE",
-            "MAROWAK",
-            "HITMONLEE",
-            "HITMONCHAN",
-            "LICKITUNG",
-            "KOFFING",
-            "WEEZING",
-            "RHYHORN",
-            "RHYDON",
-            "CHANSEY",
-            "TANGELA",
-            "KANGASKHAN",
-            "HORSEA",
-            "SEADRA",
-            "GOLDEEN",
-            "SEAKING",
-            "STARYU",
-            "STARMIE",
-            "MRMIME",
-            "SCYTHER",
-            "JYNX",
-            "ELECTABUZZ",
-            "MAGMAR",
-            "PINSIR",
-            "TAUROS",
-            "MAGIKARP",
-            "GYARADOS",
-            "LAPRAS",
-            "DITTO",
-            "EEVEE",
-            "VAPOREON",
-            "JOLTEON",
-            "FLAREON",
-            "PORYGON",
-            "OMANYTE",
-            "OMASTAR",
-            "KABUTO",
-            "KABUTOPS",
-            "AERODACTYL",
-            "SNORLAX",
-            "ARTICUNO",
-            "ZAPDOS",
-            "MOLTRES",
-            "DRATINI",
-            "DRAGONAIR",
-            "DRAGONITE",
-            "MEWTWO",
-            "MEW",
-            "CHIKORITA",
-            "BAYLEEF",
-            "MEGANIUM",
-            "CYNDAQUIL",
-            "QUILAVA",
-            "TYPHLOSION",
-            "TOTODILE",
-            "CROCONAW",
-            "FERALIGATR",
-            "SENTRET",
-            "FURRET",
-            "HOOTHOOT",
-            "NOCTOWL",
-            "LEDYBA",
-            "LEDIAN",
-            "SPINARAK",
-            "ARIADOS",
-            "CROBAT",
-            "CHINCHOU",
-            "LANTURN",
-            "PICHU",
-            "CLEFFA",
-            "IGGLYBUFF",
-            "TOGEPI",
-            "TOGETIC",
-            "NATU",
-            "XATU",
-            "MAREEP",
-            "FLAAFFY",
-            "AMPHAROS",
-            "BELLOSSOM",
-            "MARILL",
-            "AZUMARILL",
-            "SUDOWOODO",
-            "POLITOED",
-            "HOPPIP",
-            "SKIPLOOM",
-            "JUMPLUFF",
-            "AIPOM",
-            "SUNKERN",
-            "SUNFLORA",
-            "YANMA",
-            "WOOPER",
-            "QUAGSIRE",
-            "ESPEON",
-            "UMBREON",
-            "MURKROW",
-            "SLOWKING",
-            "MISDREAVUS",
-            "UNOWN",
-            "WOBBUFFET",
-            "GIRAFARIG",
-            "PINECO",
-            "FORRETRESS",
-            "DUNSPARCE",
-            "GLIGAR",
-            "STEELIX",
-            "SNUBBULL",
-            "GRANBULL",
-            "QWILFISH",
-            "SCIZOR",
-            "SHUCKLE",
-            "HERACROSS",
-            "SNEASEL",
-            "TEDDIURSA",
-            "URSARING",
-            "SLUGMA",
-            "MAGCARGO",
-            "SWINUB",
-            "PILOSWINE",
-            "CORSOLA",
-            "REMORAID",
-            "OCTILLERY",
-            "DELIBIRD",
-            "MANTINE",
-            "SKARMORY",
-            "HOUNDOUR",
-            "HOUNDOOM",
-            "KINGDRA",
-            "PHANPY",
-            "DONPHAN",
-            "PORYGON",
-            "STANTLER",
-            "SMEARGLE",
-            "TYROGUE",
-            "HITMONTOP",
-            "SMOOCHUM",
-            "ELEKID",
-            "MAGBY",
-            "MILTANK",
-            "BLISSEY",
-            "RAIKOU",
-            "ENTEI",
-            "SUICUNE",
-            "LARVITAR",
-            "PUPITAR",
-            "TYRANITAR",
-            "LUGIA",
-            "HOOH",
-            "CELEBI",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "TREECKO",
-            "GROVYLE",
-            "SCEPTILE",
-            "TORCHIC",
-            "COMBUSKEN",
-            "BLAZIKEN",
-            "MUDKIP",
-            "MARSHTOMP",
-            "SWAMPERT",
-            "POOCHYENA",
-            "MIGHTYENA",
-            "ZIGZAGOON",
-            "LINOONE",
-            "WURMPLE",
-            "SILCOON",
-            "BEAUTIFLY",
-            "CASCOON",
-            "DUSTOX",
-            "LOTAD",
-            "LOMBRE",
-            "LUDICOLO",
-            "SEEDOT",
-            "NUZLEAF",
-            "SHIFTRY",
-            "NINCADA",
-            "NINJASK",
-            "SHEDINJA",
-            "TAILLOW",
-            "SWELLOW",
-            "SHROOMISH",
-            "BRELOOM",
-            "SPINDA",
-            "WINGULL",
-            "PELIPPER",
-            "SURSKIT",
-            "MASQUERAIN",
-            "WAILMER",
-            "WAILORD",
-            "SKITTY",
-            "DELCATTY",
-            "KECLEON",
-            "BALTOY",
-            "CLAYDOL",
-            "NOSEPASS",
-            "TORKOAL",
-            "SABLEYE",
-            "BARBOACH",
-            "WHISCASH",
-            "LUVDISC",
-            "CORPHISH",
-            "CRAWDAUNT",
-            "FEEBAS",
-            "MILOTIC",
-            "CARVANHA",
-            "SHARPEDO",
-            "TRAPINCH",
-            "VIBRAVA",
-            "FLYGON",
-            "MAKUHITA",
-            "HARIYAMA",
-            "ELECTRIKE",
-            "MANECTRIC",
-            "NUMEL",
-            "CAMERUPT",
-            "SPHEAL",
-            "SEALEO",
-            "WALREIN",
-            "CACNEA",
-            "CACTURNE",
-            "SNORUNT",
-            "GLALIE",
-            "LUNATONE",
-            "SOLROCK",
-            "AZURILL",
-            "SPOINK",
-            "GRUMPIG",
-            "PLUSLE",
-            "MINUN",
-            "MAWILE",
-            "MEDITITE",
-            "MEDICHAM",
-            "SWABLU",
-            "ALTARIA",
-            "WYNAUT",
-            "DUSKULL",
-            "DUSCLOPS",
-            "ROSELIA",
-            "SLAKOTH",
-            "VIGOROTH",
-            "SLAKING",
-            "GULPIN",
-            "SWALOT",
-            "TROPIUS",
-            "WHISMUR",
-            "LOUDRED",
-            "EXPLOUD",
-            "CLAMPERL",
-            "HUNTAIL",
-            "GOREBYSS",
-            "ABSOL",
-            "SHUPPET",
-            "BANETTE",
-            "SEVIPER",
-            "ZANGOOSE",
-            "RELICANTH",
-            "ARON",
-            "LAIRON",
-            "AGGRON",
-            "CASTFORM",
-            "VOLBEAT",
-            "ILLUMISE",
-            "LILEEP",
-            "CRADILY",
-            "ANORITH",
-            "ARMALDO",
-            "RALTS",
-            "KIRLIA",
-            "GARDEVOIR",
-            "BAGON",
-            "SHELGON",
-            "SALAMENCE",
-            "BELDUM",
-            "METANG",
-            "METAGROSS",
-            "REGIROCK",
-            "REGICE",
-            "REGISTEEL",
-            "KYOGRE",
-            "GROUDON",
-            "RAYQUAZA",
-            "LATIAS",
-            "LATIOS",
-            "JIRACHI",
-            "DEOXYS",
-            "CHIMECHO"});
-            this.picPokeName.Location = new System.Drawing.Point(92, 3);
-            this.picPokeName.Name = "picPokeName";
-            this.picPokeName.Size = new System.Drawing.Size(100, 21);
-            this.picPokeName.TabIndex = 9;
-            // 
-            // label17
-            // 
-            this.label17.Location = new System.Drawing.Point(198, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(61, 21);
-            this.label17.TabIndex = 11;
-            this.label17.Text = "placed at:";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label16
-            // 
-            this.label16.Location = new System.Drawing.Point(3, 27);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(20, 21);
-            this.label16.TabIndex = 17;
-            this.label16.Text = "X=";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btGiveEgg.Click += new System.EventHandler(this.doPokeAction);
             // 
             // pokepicX
             // 
-            this.pokepicX.Location = new System.Drawing.Point(29, 30);
+            this.pokepicX.Location = new System.Drawing.Point(54, 3);
             this.pokepicX.Maximum = new decimal(new int[] {
             20,
             0,
@@ -1742,18 +732,9 @@
             0,
             0});
             // 
-            // label18
-            // 
-            this.label18.Location = new System.Drawing.Point(70, 27);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(20, 21);
-            this.label18.TabIndex = 18;
-            this.label18.Text = "Y=";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // pokepicY
             // 
-            this.pokepicY.Location = new System.Drawing.Point(96, 30);
+            this.pokepicY.Location = new System.Drawing.Point(54, 29);
             this.pokepicY.Minimum = new decimal(new int[] {
             2,
             0,
@@ -1772,9 +753,10 @@
             // 
             this.flowLayoutPanel10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.flowLayoutPanel10.AutoSize = true;
+            this.tableLayoutPanel18.SetColumnSpan(this.flowLayoutPanel10, 2);
             this.flowLayoutPanel10.Controls.Add(this.btPokePic);
             this.flowLayoutPanel10.Controls.Add(this.btPrevPic);
-            this.flowLayoutPanel10.Location = new System.Drawing.Point(53, 65);
+            this.flowLayoutPanel10.Location = new System.Drawing.Point(49, 80);
             this.flowLayoutPanel10.Name = "flowLayoutPanel10";
             this.flowLayoutPanel10.Size = new System.Drawing.Size(162, 29);
             this.flowLayoutPanel10.TabIndex = 5;
@@ -1800,1071 +782,56 @@
             this.btPrevPic.UseVisualStyleBackColor = true;
             this.btPrevPic.Click += new System.EventHandler(this.advPic_Click);
             // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.tableLayoutPanel8);
-            this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox5.Location = new System.Drawing.Point(3, 253);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(274, 119);
-            this.groupBox5.TabIndex = 6;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Wild encounter";
-            // 
-            // tableLayoutPanel8
-            // 
-            this.tableLayoutPanel8.ColumnCount = 1;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Controls.Add(this.flowLayoutPanel11, 0, 1);
-            this.tableLayoutPanel8.Controls.Add(this.flowLayoutPanel8, 0, 0);
-            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 16);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.RowCount = 2;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(268, 100);
-            this.tableLayoutPanel8.TabIndex = 0;
-            // 
-            // flowLayoutPanel11
-            // 
-            this.flowLayoutPanel11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.flowLayoutPanel11.AutoSize = true;
-            this.flowLayoutPanel11.Controls.Add(this.btWildPoke);
-            this.flowLayoutPanel11.Location = new System.Drawing.Point(93, 65);
-            this.flowLayoutPanel11.Name = "flowLayoutPanel11";
-            this.flowLayoutPanel11.Size = new System.Drawing.Size(81, 29);
-            this.flowLayoutPanel11.TabIndex = 6;
-            // 
-            // btWildPoke
-            // 
-            this.btWildPoke.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btWildPoke.Location = new System.Drawing.Point(3, 3);
-            this.btWildPoke.Name = "btWildPoke";
-            this.btWildPoke.Size = new System.Drawing.Size(75, 23);
-            this.btWildPoke.TabIndex = 13;
-            this.btWildPoke.Text = "<< Insert";
-            this.btWildPoke.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanel8
-            // 
-            this.flowLayoutPanel8.Controls.Add(this.label6);
-            this.flowLayoutPanel8.Controls.Add(this.wildPokeName);
-            this.flowLayoutPanel8.Controls.Add(this.label7);
-            this.flowLayoutPanel8.Controls.Add(this.wildPokeLevel);
-            this.flowLayoutPanel8.Controls.Add(this.label8);
-            this.flowLayoutPanel8.Controls.Add(this.wildPokeItem);
-            this.flowLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel8.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(262, 54);
-            this.flowLayoutPanel8.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.Location = new System.Drawing.Point(3, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 21);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Battle a";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // wildPokeName
-            // 
-            this.wildPokeName.FormattingEnabled = true;
-            this.wildPokeName.Items.AddRange(new object[] {
-            "??????????",
-            "BULBASAUR",
-            "IVYSAUR",
-            "VENUSAUR",
-            "CHARMANDER",
-            "CHARMELEON",
-            "CHARIZARD",
-            "SQUIRTLE",
-            "WARTORTLE",
-            "BLASTOISE",
-            "CATERPIE",
-            "METAPOD",
-            "BUTTERFREE",
-            "WEEDLE",
-            "KAKUNA",
-            "BEEDRILL",
-            "PIDGEY",
-            "PIDGEOTTO",
-            "PIDGEOT",
-            "RATTATA",
-            "RATICATE",
-            "SPEAROW",
-            "FEAROW",
-            "EKANS",
-            "ARBOK",
-            "PIKACHU",
-            "RAICHU",
-            "SANDSHREW",
-            "SANDSLASH",
-            "NIDORAN[F]",
-            "NIDORINA",
-            "NIDOQUEEN",
-            "NIDORAN[M]",
-            "NIDORINO",
-            "NIDOKING",
-            "CLEFAIRY",
-            "CLEFABLE",
-            "VULPIX",
-            "NINETALES",
-            "JIGGLYPUFF",
-            "WIGGLYTUFF",
-            "ZUBAT",
-            "GOLBAT",
-            "ODDISH",
-            "GLOOM",
-            "VILEPLUME",
-            "PARAS",
-            "PARASECT",
-            "VENONAT",
-            "VENOMOTH",
-            "DIGLETT",
-            "DUGTRIO",
-            "MEOWTH",
-            "PERSIAN",
-            "PSYDUCK",
-            "GOLDUCK",
-            "MANKEY",
-            "PRIMEAPE",
-            "GROWLITHE",
-            "ARCANINE",
-            "POLIWAG",
-            "POLIWHIRL",
-            "POLIWRATH",
-            "ABRA",
-            "KADABRA",
-            "ALAKAZAM",
-            "MACHOP",
-            "MACHOKE",
-            "MACHAMP",
-            "BELLSPROUT",
-            "WEEPINBELL",
-            "VICTREEBEL",
-            "TENTACOOL",
-            "TENTACRUEL",
-            "GEODUDE",
-            "GRAVELER",
-            "GOLEM",
-            "PONYTA",
-            "RAPIDASH",
-            "SLOWPOKE",
-            "SLOWBRO",
-            "MAGNEMITE",
-            "MAGNETON",
-            "FARFETCHED",
-            "DODUO",
-            "DODRIO",
-            "SEEL",
-            "DEWGONG",
-            "GRIMER",
-            "MUK",
-            "SHELLDER",
-            "CLOYSTER",
-            "GASTLY",
-            "HAUNTER",
-            "GENGAR",
-            "ONIX",
-            "DROWZEE",
-            "HYPNO",
-            "KRABBY",
-            "KINGLER",
-            "VOLTORB",
-            "ELECTRODE",
-            "EXEGGCUTE",
-            "EXEGGUTOR",
-            "CUBONE",
-            "MAROWAK",
-            "HITMONLEE",
-            "HITMONCHAN",
-            "LICKITUNG",
-            "KOFFING",
-            "WEEZING",
-            "RHYHORN",
-            "RHYDON",
-            "CHANSEY",
-            "TANGELA",
-            "KANGASKHAN",
-            "HORSEA",
-            "SEADRA",
-            "GOLDEEN",
-            "SEAKING",
-            "STARYU",
-            "STARMIE",
-            "MRMIME",
-            "SCYTHER",
-            "JYNX",
-            "ELECTABUZZ",
-            "MAGMAR",
-            "PINSIR",
-            "TAUROS",
-            "MAGIKARP",
-            "GYARADOS",
-            "LAPRAS",
-            "DITTO",
-            "EEVEE",
-            "VAPOREON",
-            "JOLTEON",
-            "FLAREON",
-            "PORYGON",
-            "OMANYTE",
-            "OMASTAR",
-            "KABUTO",
-            "KABUTOPS",
-            "AERODACTYL",
-            "SNORLAX",
-            "ARTICUNO",
-            "ZAPDOS",
-            "MOLTRES",
-            "DRATINI",
-            "DRAGONAIR",
-            "DRAGONITE",
-            "MEWTWO",
-            "MEW",
-            "CHIKORITA",
-            "BAYLEEF",
-            "MEGANIUM",
-            "CYNDAQUIL",
-            "QUILAVA",
-            "TYPHLOSION",
-            "TOTODILE",
-            "CROCONAW",
-            "FERALIGATR",
-            "SENTRET",
-            "FURRET",
-            "HOOTHOOT",
-            "NOCTOWL",
-            "LEDYBA",
-            "LEDIAN",
-            "SPINARAK",
-            "ARIADOS",
-            "CROBAT",
-            "CHINCHOU",
-            "LANTURN",
-            "PICHU",
-            "CLEFFA",
-            "IGGLYBUFF",
-            "TOGEPI",
-            "TOGETIC",
-            "NATU",
-            "XATU",
-            "MAREEP",
-            "FLAAFFY",
-            "AMPHAROS",
-            "BELLOSSOM",
-            "MARILL",
-            "AZUMARILL",
-            "SUDOWOODO",
-            "POLITOED",
-            "HOPPIP",
-            "SKIPLOOM",
-            "JUMPLUFF",
-            "AIPOM",
-            "SUNKERN",
-            "SUNFLORA",
-            "YANMA",
-            "WOOPER",
-            "QUAGSIRE",
-            "ESPEON",
-            "UMBREON",
-            "MURKROW",
-            "SLOWKING",
-            "MISDREAVUS",
-            "UNOWN",
-            "WOBBUFFET",
-            "GIRAFARIG",
-            "PINECO",
-            "FORRETRESS",
-            "DUNSPARCE",
-            "GLIGAR",
-            "STEELIX",
-            "SNUBBULL",
-            "GRANBULL",
-            "QWILFISH",
-            "SCIZOR",
-            "SHUCKLE",
-            "HERACROSS",
-            "SNEASEL",
-            "TEDDIURSA",
-            "URSARING",
-            "SLUGMA",
-            "MAGCARGO",
-            "SWINUB",
-            "PILOSWINE",
-            "CORSOLA",
-            "REMORAID",
-            "OCTILLERY",
-            "DELIBIRD",
-            "MANTINE",
-            "SKARMORY",
-            "HOUNDOUR",
-            "HOUNDOOM",
-            "KINGDRA",
-            "PHANPY",
-            "DONPHAN",
-            "PORYGON",
-            "STANTLER",
-            "SMEARGLE",
-            "TYROGUE",
-            "HITMONTOP",
-            "SMOOCHUM",
-            "ELEKID",
-            "MAGBY",
-            "MILTANK",
-            "BLISSEY",
-            "RAIKOU",
-            "ENTEI",
-            "SUICUNE",
-            "LARVITAR",
-            "PUPITAR",
-            "TYRANITAR",
-            "LUGIA",
-            "HOOH",
-            "CELEBI",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "TREECKO",
-            "GROVYLE",
-            "SCEPTILE",
-            "TORCHIC",
-            "COMBUSKEN",
-            "BLAZIKEN",
-            "MUDKIP",
-            "MARSHTOMP",
-            "SWAMPERT",
-            "POOCHYENA",
-            "MIGHTYENA",
-            "ZIGZAGOON",
-            "LINOONE",
-            "WURMPLE",
-            "SILCOON",
-            "BEAUTIFLY",
-            "CASCOON",
-            "DUSTOX",
-            "LOTAD",
-            "LOMBRE",
-            "LUDICOLO",
-            "SEEDOT",
-            "NUZLEAF",
-            "SHIFTRY",
-            "NINCADA",
-            "NINJASK",
-            "SHEDINJA",
-            "TAILLOW",
-            "SWELLOW",
-            "SHROOMISH",
-            "BRELOOM",
-            "SPINDA",
-            "WINGULL",
-            "PELIPPER",
-            "SURSKIT",
-            "MASQUERAIN",
-            "WAILMER",
-            "WAILORD",
-            "SKITTY",
-            "DELCATTY",
-            "KECLEON",
-            "BALTOY",
-            "CLAYDOL",
-            "NOSEPASS",
-            "TORKOAL",
-            "SABLEYE",
-            "BARBOACH",
-            "WHISCASH",
-            "LUVDISC",
-            "CORPHISH",
-            "CRAWDAUNT",
-            "FEEBAS",
-            "MILOTIC",
-            "CARVANHA",
-            "SHARPEDO",
-            "TRAPINCH",
-            "VIBRAVA",
-            "FLYGON",
-            "MAKUHITA",
-            "HARIYAMA",
-            "ELECTRIKE",
-            "MANECTRIC",
-            "NUMEL",
-            "CAMERUPT",
-            "SPHEAL",
-            "SEALEO",
-            "WALREIN",
-            "CACNEA",
-            "CACTURNE",
-            "SNORUNT",
-            "GLALIE",
-            "LUNATONE",
-            "SOLROCK",
-            "AZURILL",
-            "SPOINK",
-            "GRUMPIG",
-            "PLUSLE",
-            "MINUN",
-            "MAWILE",
-            "MEDITITE",
-            "MEDICHAM",
-            "SWABLU",
-            "ALTARIA",
-            "WYNAUT",
-            "DUSKULL",
-            "DUSCLOPS",
-            "ROSELIA",
-            "SLAKOTH",
-            "VIGOROTH",
-            "SLAKING",
-            "GULPIN",
-            "SWALOT",
-            "TROPIUS",
-            "WHISMUR",
-            "LOUDRED",
-            "EXPLOUD",
-            "CLAMPERL",
-            "HUNTAIL",
-            "GOREBYSS",
-            "ABSOL",
-            "SHUPPET",
-            "BANETTE",
-            "SEVIPER",
-            "ZANGOOSE",
-            "RELICANTH",
-            "ARON",
-            "LAIRON",
-            "AGGRON",
-            "CASTFORM",
-            "VOLBEAT",
-            "ILLUMISE",
-            "LILEEP",
-            "CRADILY",
-            "ANORITH",
-            "ARMALDO",
-            "RALTS",
-            "KIRLIA",
-            "GARDEVOIR",
-            "BAGON",
-            "SHELGON",
-            "SALAMENCE",
-            "BELDUM",
-            "METANG",
-            "METAGROSS",
-            "REGIROCK",
-            "REGICE",
-            "REGISTEEL",
-            "KYOGRE",
-            "GROUDON",
-            "RAYQUAZA",
-            "LATIAS",
-            "LATIOS",
-            "JIRACHI",
-            "DEOXYS",
-            "CHIMECHO"});
-            this.wildPokeName.Location = new System.Drawing.Point(54, 3);
-            this.wildPokeName.Name = "wildPokeName";
-            this.wildPokeName.Size = new System.Drawing.Size(100, 21);
-            this.wildPokeName.TabIndex = 9;
-            // 
-            // label7
-            // 
-            this.label7.Location = new System.Drawing.Point(160, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 21);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "at level";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // wildPokeLevel
-            // 
-            this.wildPokeLevel.Location = new System.Drawing.Point(207, 3);
-            this.wildPokeLevel.Minimum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.wildPokeLevel.Name = "wildPokeLevel";
-            this.wildPokeLevel.Size = new System.Drawing.Size(40, 20);
-            this.wildPokeLevel.TabIndex = 14;
-            this.wildPokeLevel.Value = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            // 
-            // label8
-            // 
-            this.label8.Location = new System.Drawing.Point(3, 27);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 21);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "with a";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // wildPokeItem
-            // 
-            this.wildPokeItem.FormattingEnabled = true;
-            this.wildPokeItem.Location = new System.Drawing.Point(44, 30);
-            this.wildPokeItem.Name = "wildPokeItem";
-            this.wildPokeItem.Size = new System.Drawing.Size(100, 21);
-            this.wildPokeItem.TabIndex = 12;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.tableLayoutPanel9);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(3, 3);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(274, 119);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Give pokémon";
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.ColumnCount = 1;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Controls.Add(this.flowLayoutPanel12, 0, 1);
-            this.tableLayoutPanel9.Controls.Add(this.flowLayoutPanel2, 0, 0);
-            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 16);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 2;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(268, 100);
-            this.tableLayoutPanel9.TabIndex = 0;
-            // 
-            // flowLayoutPanel12
-            // 
-            this.flowLayoutPanel12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.flowLayoutPanel12.AutoSize = true;
-            this.flowLayoutPanel12.Controls.Add(this.btGivePoke);
-            this.flowLayoutPanel12.Location = new System.Drawing.Point(93, 65);
-            this.flowLayoutPanel12.Name = "flowLayoutPanel12";
-            this.flowLayoutPanel12.Size = new System.Drawing.Size(81, 29);
-            this.flowLayoutPanel12.TabIndex = 10;
-            // 
-            // btGivePoke
-            // 
-            this.btGivePoke.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btGivePoke.Location = new System.Drawing.Point(3, 3);
-            this.btGivePoke.Name = "btGivePoke";
-            this.btGivePoke.Size = new System.Drawing.Size(75, 23);
-            this.btGivePoke.TabIndex = 13;
-            this.btGivePoke.Text = "<< Insert";
-            this.btGivePoke.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.label3);
-            this.flowLayoutPanel2.Controls.Add(this.givePokeName);
-            this.flowLayoutPanel2.Controls.Add(this.label4);
-            this.flowLayoutPanel2.Controls.Add(this.givePokeLevel);
-            this.flowLayoutPanel2.Controls.Add(this.label5);
-            this.flowLayoutPanel2.Controls.Add(this.givePokeItem);
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(262, 54);
-            this.flowLayoutPanel2.TabIndex = 9;
-            // 
             // label3
             // 
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
             this.label3.Location = new System.Drawing.Point(3, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 21);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Give a";
+            this.label3.Text = "Action:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // givePokeName
+            // givePokeCombo
             // 
-            this.givePokeName.FormattingEnabled = true;
-            this.givePokeName.Items.AddRange(new object[] {
-            "??????????",
-            "BULBASAUR",
-            "IVYSAUR",
-            "VENUSAUR",
-            "CHARMANDER",
-            "CHARMELEON",
-            "CHARIZARD",
-            "SQUIRTLE",
-            "WARTORTLE",
-            "BLASTOISE",
-            "CATERPIE",
-            "METAPOD",
-            "BUTTERFREE",
-            "WEEDLE",
-            "KAKUNA",
-            "BEEDRILL",
-            "PIDGEY",
-            "PIDGEOTTO",
-            "PIDGEOT",
-            "RATTATA",
-            "RATICATE",
-            "SPEAROW",
-            "FEAROW",
-            "EKANS",
-            "ARBOK",
-            "PIKACHU",
-            "RAICHU",
-            "SANDSHREW",
-            "SANDSLASH",
-            "NIDORAN[F]",
-            "NIDORINA",
-            "NIDOQUEEN",
-            "NIDORAN[M]",
-            "NIDORINO",
-            "NIDOKING",
-            "CLEFAIRY",
-            "CLEFABLE",
-            "VULPIX",
-            "NINETALES",
-            "JIGGLYPUFF",
-            "WIGGLYTUFF",
-            "ZUBAT",
-            "GOLBAT",
-            "ODDISH",
-            "GLOOM",
-            "VILEPLUME",
-            "PARAS",
-            "PARASECT",
-            "VENONAT",
-            "VENOMOTH",
-            "DIGLETT",
-            "DUGTRIO",
-            "MEOWTH",
-            "PERSIAN",
-            "PSYDUCK",
-            "GOLDUCK",
-            "MANKEY",
-            "PRIMEAPE",
-            "GROWLITHE",
-            "ARCANINE",
-            "POLIWAG",
-            "POLIWHIRL",
-            "POLIWRATH",
-            "ABRA",
-            "KADABRA",
-            "ALAKAZAM",
-            "MACHOP",
-            "MACHOKE",
-            "MACHAMP",
-            "BELLSPROUT",
-            "WEEPINBELL",
-            "VICTREEBEL",
-            "TENTACOOL",
-            "TENTACRUEL",
-            "GEODUDE",
-            "GRAVELER",
-            "GOLEM",
-            "PONYTA",
-            "RAPIDASH",
-            "SLOWPOKE",
-            "SLOWBRO",
-            "MAGNEMITE",
-            "MAGNETON",
-            "FARFETCHED",
-            "DODUO",
-            "DODRIO",
-            "SEEL",
-            "DEWGONG",
-            "GRIMER",
-            "MUK",
-            "SHELLDER",
-            "CLOYSTER",
-            "GASTLY",
-            "HAUNTER",
-            "GENGAR",
-            "ONIX",
-            "DROWZEE",
-            "HYPNO",
-            "KRABBY",
-            "KINGLER",
-            "VOLTORB",
-            "ELECTRODE",
-            "EXEGGCUTE",
-            "EXEGGUTOR",
-            "CUBONE",
-            "MAROWAK",
-            "HITMONLEE",
-            "HITMONCHAN",
-            "LICKITUNG",
-            "KOFFING",
-            "WEEZING",
-            "RHYHORN",
-            "RHYDON",
-            "CHANSEY",
-            "TANGELA",
-            "KANGASKHAN",
-            "HORSEA",
-            "SEADRA",
-            "GOLDEEN",
-            "SEAKING",
-            "STARYU",
-            "STARMIE",
-            "MRMIME",
-            "SCYTHER",
-            "JYNX",
-            "ELECTABUZZ",
-            "MAGMAR",
-            "PINSIR",
-            "TAUROS",
-            "MAGIKARP",
-            "GYARADOS",
-            "LAPRAS",
-            "DITTO",
-            "EEVEE",
-            "VAPOREON",
-            "JOLTEON",
-            "FLAREON",
-            "PORYGON",
-            "OMANYTE",
-            "OMASTAR",
-            "KABUTO",
-            "KABUTOPS",
-            "AERODACTYL",
-            "SNORLAX",
-            "ARTICUNO",
-            "ZAPDOS",
-            "MOLTRES",
-            "DRATINI",
-            "DRAGONAIR",
-            "DRAGONITE",
-            "MEWTWO",
-            "MEW",
-            "CHIKORITA",
-            "BAYLEEF",
-            "MEGANIUM",
-            "CYNDAQUIL",
-            "QUILAVA",
-            "TYPHLOSION",
-            "TOTODILE",
-            "CROCONAW",
-            "FERALIGATR",
-            "SENTRET",
-            "FURRET",
-            "HOOTHOOT",
-            "NOCTOWL",
-            "LEDYBA",
-            "LEDIAN",
-            "SPINARAK",
-            "ARIADOS",
-            "CROBAT",
-            "CHINCHOU",
-            "LANTURN",
-            "PICHU",
-            "CLEFFA",
-            "IGGLYBUFF",
-            "TOGEPI",
-            "TOGETIC",
-            "NATU",
-            "XATU",
-            "MAREEP",
-            "FLAAFFY",
-            "AMPHAROS",
-            "BELLOSSOM",
-            "MARILL",
-            "AZUMARILL",
-            "SUDOWOODO",
-            "POLITOED",
-            "HOPPIP",
-            "SKIPLOOM",
-            "JUMPLUFF",
-            "AIPOM",
-            "SUNKERN",
-            "SUNFLORA",
-            "YANMA",
-            "WOOPER",
-            "QUAGSIRE",
-            "ESPEON",
-            "UMBREON",
-            "MURKROW",
-            "SLOWKING",
-            "MISDREAVUS",
-            "UNOWN",
-            "WOBBUFFET",
-            "GIRAFARIG",
-            "PINECO",
-            "FORRETRESS",
-            "DUNSPARCE",
-            "GLIGAR",
-            "STEELIX",
-            "SNUBBULL",
-            "GRANBULL",
-            "QWILFISH",
-            "SCIZOR",
-            "SHUCKLE",
-            "HERACROSS",
-            "SNEASEL",
-            "TEDDIURSA",
-            "URSARING",
-            "SLUGMA",
-            "MAGCARGO",
-            "SWINUB",
-            "PILOSWINE",
-            "CORSOLA",
-            "REMORAID",
-            "OCTILLERY",
-            "DELIBIRD",
-            "MANTINE",
-            "SKARMORY",
-            "HOUNDOUR",
-            "HOUNDOOM",
-            "KINGDRA",
-            "PHANPY",
-            "DONPHAN",
-            "PORYGON",
-            "STANTLER",
-            "SMEARGLE",
-            "TYROGUE",
-            "HITMONTOP",
-            "SMOOCHUM",
-            "ELEKID",
-            "MAGBY",
-            "MILTANK",
-            "BLISSEY",
-            "RAIKOU",
-            "ENTEI",
-            "SUICUNE",
-            "LARVITAR",
-            "PUPITAR",
-            "TYRANITAR",
-            "LUGIA",
-            "HOOH",
-            "CELEBI",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "?",
-            "TREECKO",
-            "GROVYLE",
-            "SCEPTILE",
-            "TORCHIC",
-            "COMBUSKEN",
-            "BLAZIKEN",
-            "MUDKIP",
-            "MARSHTOMP",
-            "SWAMPERT",
-            "POOCHYENA",
-            "MIGHTYENA",
-            "ZIGZAGOON",
-            "LINOONE",
-            "WURMPLE",
-            "SILCOON",
-            "BEAUTIFLY",
-            "CASCOON",
-            "DUSTOX",
-            "LOTAD",
-            "LOMBRE",
-            "LUDICOLO",
-            "SEEDOT",
-            "NUZLEAF",
-            "SHIFTRY",
-            "NINCADA",
-            "NINJASK",
-            "SHEDINJA",
-            "TAILLOW",
-            "SWELLOW",
-            "SHROOMISH",
-            "BRELOOM",
-            "SPINDA",
-            "WINGULL",
-            "PELIPPER",
-            "SURSKIT",
-            "MASQUERAIN",
-            "WAILMER",
-            "WAILORD",
-            "SKITTY",
-            "DELCATTY",
-            "KECLEON",
-            "BALTOY",
-            "CLAYDOL",
-            "NOSEPASS",
-            "TORKOAL",
-            "SABLEYE",
-            "BARBOACH",
-            "WHISCASH",
-            "LUVDISC",
-            "CORPHISH",
-            "CRAWDAUNT",
-            "FEEBAS",
-            "MILOTIC",
-            "CARVANHA",
-            "SHARPEDO",
-            "TRAPINCH",
-            "VIBRAVA",
-            "FLYGON",
-            "MAKUHITA",
-            "HARIYAMA",
-            "ELECTRIKE",
-            "MANECTRIC",
-            "NUMEL",
-            "CAMERUPT",
-            "SPHEAL",
-            "SEALEO",
-            "WALREIN",
-            "CACNEA",
-            "CACTURNE",
-            "SNORUNT",
-            "GLALIE",
-            "LUNATONE",
-            "SOLROCK",
-            "AZURILL",
-            "SPOINK",
-            "GRUMPIG",
-            "PLUSLE",
-            "MINUN",
-            "MAWILE",
-            "MEDITITE",
-            "MEDICHAM",
-            "SWABLU",
-            "ALTARIA",
-            "WYNAUT",
-            "DUSKULL",
-            "DUSCLOPS",
-            "ROSELIA",
-            "SLAKOTH",
-            "VIGOROTH",
-            "SLAKING",
-            "GULPIN",
-            "SWALOT",
-            "TROPIUS",
-            "WHISMUR",
-            "LOUDRED",
-            "EXPLOUD",
-            "CLAMPERL",
-            "HUNTAIL",
-            "GOREBYSS",
-            "ABSOL",
-            "SHUPPET",
-            "BANETTE",
-            "SEVIPER",
-            "ZANGOOSE",
-            "RELICANTH",
-            "ARON",
-            "LAIRON",
-            "AGGRON",
-            "CASTFORM",
-            "VOLBEAT",
-            "ILLUMISE",
-            "LILEEP",
-            "CRADILY",
-            "ANORITH",
-            "ARMALDO",
-            "RALTS",
-            "KIRLIA",
-            "GARDEVOIR",
-            "BAGON",
-            "SHELGON",
-            "SALAMENCE",
-            "BELDUM",
-            "METANG",
-            "METAGROSS",
-            "REGIROCK",
-            "REGICE",
-            "REGISTEEL",
-            "KYOGRE",
-            "GROUDON",
-            "RAYQUAZA",
-            "LATIAS",
-            "LATIOS",
-            "JIRACHI",
-            "DEOXYS",
-            "CHIMECHO"});
-            this.givePokeName.Location = new System.Drawing.Point(54, 3);
-            this.givePokeName.Name = "givePokeName";
-            this.givePokeName.Size = new System.Drawing.Size(100, 21);
-            this.givePokeName.TabIndex = 1;
+            this.givePokeCombo.DisplayMember = "0";
+            this.givePokeCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.givePokeCombo.FormattingEnabled = true;
+            this.givePokeCombo.Items.AddRange(new object[] {
+            "Give pokémon",
+            "Wild encounter",
+            "Give egg"});
+            this.givePokeCombo.Location = new System.Drawing.Point(54, 3);
+            this.givePokeCombo.Name = "givePokeCombo";
+            this.givePokeCombo.Size = new System.Drawing.Size(100, 21);
+            this.givePokeCombo.TabIndex = 1;
+            this.givePokeCombo.ValueMember = "0";
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(160, 0);
+            this.label4.Location = new System.Drawing.Point(3, 27);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 21);
             this.label4.TabIndex = 2;
-            this.label4.Text = "at level";
+            this.label4.Text = "Level:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // givePokeLevel
+            // pokeLevel
             // 
-            this.givePokeLevel.Location = new System.Drawing.Point(207, 3);
-            this.givePokeLevel.Minimum = new decimal(new int[] {
+            this.pokeLevel.Location = new System.Drawing.Point(54, 30);
+            this.pokeLevel.Minimum = new decimal(new int[] {
             2,
             0,
             0,
             0});
-            this.givePokeLevel.Name = "givePokeLevel";
-            this.givePokeLevel.Size = new System.Drawing.Size(40, 20);
-            this.givePokeLevel.TabIndex = 7;
-            this.givePokeLevel.Value = new decimal(new int[] {
+            this.pokeLevel.Name = "pokeLevel";
+            this.pokeLevel.Size = new System.Drawing.Size(40, 20);
+            this.pokeLevel.TabIndex = 7;
+            this.pokeLevel.Value = new decimal(new int[] {
             2,
             0,
             0,
             0});
-            // 
-            // label5
-            // 
-            this.label5.Location = new System.Drawing.Point(3, 27);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 21);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "with a";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // givePokeItem
-            // 
-            this.givePokeItem.FormattingEnabled = true;
-            this.givePokeItem.Location = new System.Drawing.Point(44, 30);
-            this.givePokeItem.Name = "givePokeItem";
-            this.givePokeItem.Size = new System.Drawing.Size(100, 21);
-            this.givePokeItem.TabIndex = 5;
             // 
             // itemTab
             // 
@@ -3240,10 +1207,10 @@
             // moveTab
             // 
             this.moveTab.Controls.Add(this.tableLayoutPanel5);
-            this.moveTab.Location = new System.Drawing.Point(4, 22);
+            this.moveTab.Location = new System.Drawing.Point(4, 40);
             this.moveTab.Name = "moveTab";
             this.moveTab.Padding = new System.Windows.Forms.Padding(3);
-            this.moveTab.Size = new System.Drawing.Size(286, 532);
+            this.moveTab.Size = new System.Drawing.Size(286, 514);
             this.moveTab.TabIndex = 2;
             this.moveTab.Text = "Quick movement";
             this.moveTab.UseVisualStyleBackColor = true;
@@ -3261,7 +1228,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 260F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 260F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(280, 526);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(280, 508);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
             // groupBox4
@@ -3672,42 +1639,34 @@
             this.insertMoveBt_moves.Text = "<< Insert";
             this.insertMoveBt_moves.UseVisualStyleBackColor = true;
             // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(3, 3);
-            this.splitContainer1.Name = "splitContainer1";
-            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.tabControl2);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer1.Size = new System.Drawing.Size(793, 558);
-            this.splitContainer1.SplitterDistance = 264;
-            this.splitContainer1.TabIndex = 1;
-            // 
             // tabControl2
             // 
             this.tabControl2.Controls.Add(this.tabPage5);
             this.tabControl2.Controls.Add(this.tabPage4);
             this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl2.Location = new System.Drawing.Point(0, 0);
+            this.tabControl2.Location = new System.Drawing.Point(3, 3);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(793, 264);
+            this.tabControl2.Size = new System.Drawing.Size(793, 558);
             this.tabControl2.TabIndex = 0;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(785, 532);
+            this.tabPage5.TabIndex = 1;
+            this.tabPage5.Text = "Easy View";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.scriptBox);
+            this.tabPage4.Controls.Add(this.splitContainer1);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(785, 238);
+            this.tabPage4.Size = new System.Drawing.Size(785, 532);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Script";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -3719,11 +1678,11 @@
             this.scriptBox.AllowDrop = true;
             this.scriptBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.scriptBox.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scriptBox.Location = new System.Drawing.Point(3, 3);
+            this.scriptBox.Location = new System.Drawing.Point(0, 0);
             this.scriptBox.Multiline = true;
             this.scriptBox.Name = "scriptBox";
             this.scriptBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.scriptBox.Size = new System.Drawing.Size(779, 232);
+            this.scriptBox.Size = new System.Drawing.Size(779, 248);
             this.scriptBox.TabIndex = 0;
             // 
             // tabControl1
@@ -3735,7 +1694,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(793, 290);
+            this.tabControl1.Size = new System.Drawing.Size(779, 274);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -3744,7 +1703,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(785, 264);
+            this.tabPage1.Size = new System.Drawing.Size(771, 248);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Text strings";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -3757,7 +1716,7 @@
             this.stringBox.Location = new System.Drawing.Point(3, 3);
             this.stringBox.Name = "stringBox";
             this.stringBox.SelectedImageIndex = 0;
-            this.stringBox.Size = new System.Drawing.Size(779, 258);
+            this.stringBox.Size = new System.Drawing.Size(765, 242);
             this.stringBox.TabIndex = 0;
             this.stringBox.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.callStr);
             // 
@@ -3824,15 +1783,909 @@
             // 
             this.ContentPanel.Size = new System.Drawing.Size(280, 501);
             // 
-            // tabPage5
+            // splitContainer1
             // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(785, 238);
-            this.tabPage5.TabIndex = 1;
-            this.tabPage5.Text = "Easy View";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(3, 3);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.scriptBox);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
+            this.splitContainer1.Size = new System.Drawing.Size(779, 526);
+            this.splitContainer1.SplitterDistance = 248;
+            this.splitContainer1.TabIndex = 2;
+            // 
+            // tableLayoutPanel16
+            // 
+            this.tableLayoutPanel16.ColumnCount = 1;
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel16.Controls.Add(this.groupBox11, 0, 0);
+            this.tableLayoutPanel16.Controls.Add(this.groupBox12, 0, 1);
+            this.tableLayoutPanel16.Controls.Add(this.tabControl4, 0, 2);
+            this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
+            this.tableLayoutPanel16.RowCount = 3;
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel16.Size = new System.Drawing.Size(280, 526);
+            this.tableLayoutPanel16.TabIndex = 0;
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.pokeList);
+            this.groupBox11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox11.Location = new System.Drawing.Point(3, 3);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(274, 169);
+            this.groupBox11.TabIndex = 0;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Species";
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.heldItemList);
+            this.groupBox12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox12.Location = new System.Drawing.Point(3, 178);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(274, 169);
+            this.groupBox12.TabIndex = 1;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Item held";
+            // 
+            // tabControl4
+            // 
+            this.tabControl4.Controls.Add(this.tabPage6);
+            this.tabControl4.Controls.Add(this.tabPage7);
+            this.tabControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl4.Location = new System.Drawing.Point(3, 353);
+            this.tabControl4.Name = "tabControl4";
+            this.tabControl4.SelectedIndex = 0;
+            this.tabControl4.Size = new System.Drawing.Size(274, 170);
+            this.tabControl4.TabIndex = 2;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.tableLayoutPanel17);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(266, 144);
+            this.tabPage6.TabIndex = 0;
+            this.tabPage6.Text = "Give / Wild";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // pokeList
+            // 
+            this.pokeList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pokeList.FormattingEnabled = true;
+            this.pokeList.Items.AddRange(new object[] {
+            "??????????",
+            "BULBASAUR",
+            "IVYSAUR",
+            "VENUSAUR",
+            "CHARMANDER",
+            "CHARMELEON",
+            "CHARIZARD",
+            "SQUIRTLE",
+            "WARTORTLE",
+            "BLASTOISE",
+            "CATERPIE",
+            "METAPOD",
+            "BUTTERFREE",
+            "WEEDLE",
+            "KAKUNA",
+            "BEEDRILL",
+            "PIDGEY",
+            "PIDGEOTTO",
+            "PIDGEOT",
+            "RATTATA",
+            "RATICATE",
+            "SPEAROW",
+            "FEAROW",
+            "EKANS",
+            "ARBOK",
+            "PIKACHU",
+            "RAICHU",
+            "SANDSHREW",
+            "SANDSLASH",
+            "NIDORAN[F]",
+            "NIDORINA",
+            "NIDOQUEEN",
+            "NIDORAN[M]",
+            "NIDORINO",
+            "NIDOKING",
+            "CLEFAIRY",
+            "CLEFABLE",
+            "VULPIX",
+            "NINETALES",
+            "JIGGLYPUFF",
+            "WIGGLYTUFF",
+            "ZUBAT",
+            "GOLBAT",
+            "ODDISH",
+            "GLOOM",
+            "VILEPLUME",
+            "PARAS",
+            "PARASECT",
+            "VENONAT",
+            "VENOMOTH",
+            "DIGLETT",
+            "DUGTRIO",
+            "MEOWTH",
+            "PERSIAN",
+            "PSYDUCK",
+            "GOLDUCK",
+            "MANKEY",
+            "PRIMEAPE",
+            "GROWLITHE",
+            "ARCANINE",
+            "POLIWAG",
+            "POLIWHIRL",
+            "POLIWRATH",
+            "ABRA",
+            "KADABRA",
+            "ALAKAZAM",
+            "MACHOP",
+            "MACHOKE",
+            "MACHAMP",
+            "BELLSPROUT",
+            "WEEPINBELL",
+            "VICTREEBEL",
+            "TENTACOOL",
+            "TENTACRUEL",
+            "GEODUDE",
+            "GRAVELER",
+            "GOLEM",
+            "PONYTA",
+            "RAPIDASH",
+            "SLOWPOKE",
+            "SLOWBRO",
+            "MAGNEMITE",
+            "MAGNETON",
+            "FARFETCHED",
+            "DODUO",
+            "DODRIO",
+            "SEEL",
+            "DEWGONG",
+            "GRIMER",
+            "MUK",
+            "SHELLDER",
+            "CLOYSTER",
+            "GASTLY",
+            "HAUNTER",
+            "GENGAR",
+            "ONIX",
+            "DROWZEE",
+            "HYPNO",
+            "KRABBY",
+            "KINGLER",
+            "VOLTORB",
+            "ELECTRODE",
+            "EXEGGCUTE",
+            "EXEGGUTOR",
+            "CUBONE",
+            "MAROWAK",
+            "HITMONLEE",
+            "HITMONCHAN",
+            "LICKITUNG",
+            "KOFFING",
+            "WEEZING",
+            "RHYHORN",
+            "RHYDON",
+            "CHANSEY",
+            "TANGELA",
+            "KANGASKHAN",
+            "HORSEA",
+            "SEADRA",
+            "GOLDEEN",
+            "SEAKING",
+            "STARYU",
+            "STARMIE",
+            "MRMIME",
+            "SCYTHER",
+            "JYNX",
+            "ELECTABUZZ",
+            "MAGMAR",
+            "PINSIR",
+            "TAUROS",
+            "MAGIKARP",
+            "GYARADOS",
+            "LAPRAS",
+            "DITTO",
+            "EEVEE",
+            "VAPOREON",
+            "JOLTEON",
+            "FLAREON",
+            "PORYGON",
+            "OMANYTE",
+            "OMASTAR",
+            "KABUTO",
+            "KABUTOPS",
+            "AERODACTYL",
+            "SNORLAX",
+            "ARTICUNO",
+            "ZAPDOS",
+            "MOLTRES",
+            "DRATINI",
+            "DRAGONAIR",
+            "DRAGONITE",
+            "MEWTWO",
+            "MEW",
+            "CHIKORITA",
+            "BAYLEEF",
+            "MEGANIUM",
+            "CYNDAQUIL",
+            "QUILAVA",
+            "TYPHLOSION",
+            "TOTODILE",
+            "CROCONAW",
+            "FERALIGATR",
+            "SENTRET",
+            "FURRET",
+            "HOOTHOOT",
+            "NOCTOWL",
+            "LEDYBA",
+            "LEDIAN",
+            "SPINARAK",
+            "ARIADOS",
+            "CROBAT",
+            "CHINCHOU",
+            "LANTURN",
+            "PICHU",
+            "CLEFFA",
+            "IGGLYBUFF",
+            "TOGEPI",
+            "TOGETIC",
+            "NATU",
+            "XATU",
+            "MAREEP",
+            "FLAAFFY",
+            "AMPHAROS",
+            "BELLOSSOM",
+            "MARILL",
+            "AZUMARILL",
+            "SUDOWOODO",
+            "POLITOED",
+            "HOPPIP",
+            "SKIPLOOM",
+            "JUMPLUFF",
+            "AIPOM",
+            "SUNKERN",
+            "SUNFLORA",
+            "YANMA",
+            "WOOPER",
+            "QUAGSIRE",
+            "ESPEON",
+            "UMBREON",
+            "MURKROW",
+            "SLOWKING",
+            "MISDREAVUS",
+            "UNOWN",
+            "WOBBUFFET",
+            "GIRAFARIG",
+            "PINECO",
+            "FORRETRESS",
+            "DUNSPARCE",
+            "GLIGAR",
+            "STEELIX",
+            "SNUBBULL",
+            "GRANBULL",
+            "QWILFISH",
+            "SCIZOR",
+            "SHUCKLE",
+            "HERACROSS",
+            "SNEASEL",
+            "TEDDIURSA",
+            "URSARING",
+            "SLUGMA",
+            "MAGCARGO",
+            "SWINUB",
+            "PILOSWINE",
+            "CORSOLA",
+            "REMORAID",
+            "OCTILLERY",
+            "DELIBIRD",
+            "MANTINE",
+            "SKARMORY",
+            "HOUNDOUR",
+            "HOUNDOOM",
+            "KINGDRA",
+            "PHANPY",
+            "DONPHAN",
+            "PORYGON",
+            "STANTLER",
+            "SMEARGLE",
+            "TYROGUE",
+            "HITMONTOP",
+            "SMOOCHUM",
+            "ELEKID",
+            "MAGBY",
+            "MILTANK",
+            "BLISSEY",
+            "RAIKOU",
+            "ENTEI",
+            "SUICUNE",
+            "LARVITAR",
+            "PUPITAR",
+            "TYRANITAR",
+            "LUGIA",
+            "HOOH",
+            "CELEBI",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "?",
+            "TREECKO",
+            "GROVYLE",
+            "SCEPTILE",
+            "TORCHIC",
+            "COMBUSKEN",
+            "BLAZIKEN",
+            "MUDKIP",
+            "MARSHTOMP",
+            "SWAMPERT",
+            "POOCHYENA",
+            "MIGHTYENA",
+            "ZIGZAGOON",
+            "LINOONE",
+            "WURMPLE",
+            "SILCOON",
+            "BEAUTIFLY",
+            "CASCOON",
+            "DUSTOX",
+            "LOTAD",
+            "LOMBRE",
+            "LUDICOLO",
+            "SEEDOT",
+            "NUZLEAF",
+            "SHIFTRY",
+            "NINCADA",
+            "NINJASK",
+            "SHEDINJA",
+            "TAILLOW",
+            "SWELLOW",
+            "SHROOMISH",
+            "BRELOOM",
+            "SPINDA",
+            "WINGULL",
+            "PELIPPER",
+            "SURSKIT",
+            "MASQUERAIN",
+            "WAILMER",
+            "WAILORD",
+            "SKITTY",
+            "DELCATTY",
+            "KECLEON",
+            "BALTOY",
+            "CLAYDOL",
+            "NOSEPASS",
+            "TORKOAL",
+            "SABLEYE",
+            "BARBOACH",
+            "WHISCASH",
+            "LUVDISC",
+            "CORPHISH",
+            "CRAWDAUNT",
+            "FEEBAS",
+            "MILOTIC",
+            "CARVANHA",
+            "SHARPEDO",
+            "TRAPINCH",
+            "VIBRAVA",
+            "FLYGON",
+            "MAKUHITA",
+            "HARIYAMA",
+            "ELECTRIKE",
+            "MANECTRIC",
+            "NUMEL",
+            "CAMERUPT",
+            "SPHEAL",
+            "SEALEO",
+            "WALREIN",
+            "CACNEA",
+            "CACTURNE",
+            "SNORUNT",
+            "GLALIE",
+            "LUNATONE",
+            "SOLROCK",
+            "AZURILL",
+            "SPOINK",
+            "GRUMPIG",
+            "PLUSLE",
+            "MINUN",
+            "MAWILE",
+            "MEDITITE",
+            "MEDICHAM",
+            "SWABLU",
+            "ALTARIA",
+            "WYNAUT",
+            "DUSKULL",
+            "DUSCLOPS",
+            "ROSELIA",
+            "SLAKOTH",
+            "VIGOROTH",
+            "SLAKING",
+            "GULPIN",
+            "SWALOT",
+            "TROPIUS",
+            "WHISMUR",
+            "LOUDRED",
+            "EXPLOUD",
+            "CLAMPERL",
+            "HUNTAIL",
+            "GOREBYSS",
+            "ABSOL",
+            "SHUPPET",
+            "BANETTE",
+            "SEVIPER",
+            "ZANGOOSE",
+            "RELICANTH",
+            "ARON",
+            "LAIRON",
+            "AGGRON",
+            "CASTFORM",
+            "VOLBEAT",
+            "ILLUMISE",
+            "LILEEP",
+            "CRADILY",
+            "ANORITH",
+            "ARMALDO",
+            "RALTS",
+            "KIRLIA",
+            "GARDEVOIR",
+            "BAGON",
+            "SHELGON",
+            "SALAMENCE",
+            "BELDUM",
+            "METANG",
+            "METAGROSS",
+            "REGIROCK",
+            "REGICE",
+            "REGISTEEL",
+            "KYOGRE",
+            "GROUDON",
+            "RAYQUAZA",
+            "LATIAS",
+            "LATIOS",
+            "JIRACHI",
+            "DEOXYS",
+            "CHIMECHO"});
+            this.pokeList.Location = new System.Drawing.Point(3, 16);
+            this.pokeList.Name = "pokeList";
+            this.pokeList.Size = new System.Drawing.Size(268, 150);
+            this.pokeList.TabIndex = 0;
+            // 
+            // heldItemList
+            // 
+            this.heldItemList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.heldItemList.FormattingEnabled = true;
+            this.heldItemList.Items.AddRange(new object[] {
+            "MASTERBALL",
+            "ULTRABALL",
+            "GREATBALL",
+            "POKEBALL",
+            "SAFARIBALL",
+            "NETBALL",
+            "DIVEBALL",
+            "NESTBALL",
+            "REPEATBALL",
+            "TIMERBALL",
+            "LUXURYBALL",
+            "PREMIERBALL",
+            "POTION",
+            "ANTIDOTE",
+            "BURNHEAL",
+            "ICEHEAL",
+            "AWAKENING",
+            "PARLYZHEAL",
+            "FULLRESTORE",
+            "MAXPOTION",
+            "HYPERPOTION",
+            "SUPERPOTION",
+            "FULLHEAL",
+            "REVIVE",
+            "MAXREVIVE",
+            "FRESHWATER",
+            "SODAPOP",
+            "LEMONADE",
+            "MOOMOOMILK",
+            "ENERGYPOWDER",
+            "ENERGYROOT",
+            "HEALPOWDER",
+            "REVIVALHERB",
+            "ETHER",
+            "MAXETHER",
+            "ELIXIR",
+            "MAXELIXIR",
+            "LAVACOOKIE",
+            "BLUEFLUTE",
+            "YELLOWFLUTE",
+            "REDFLUTE",
+            "BLACKFLUTE",
+            "WHITEFLUTE",
+            "BERRYJUICE",
+            "SACREDASH",
+            "SHOALSALT",
+            "SHOALSHELL",
+            "REDSHARD",
+            "BLUESHARD",
+            "YELLOWSHARD",
+            "GREENSHARD",
+            "HPUP",
+            "PROTEIN",
+            "IRON",
+            "CARBOS",
+            "CALCIUM",
+            "RARECANDY",
+            "PPUP",
+            "ZINC",
+            "PPMAX",
+            "GUARDSPEC",
+            "DIREHIT",
+            "XATTACK",
+            "XDEFEND",
+            "XSPEED",
+            "XACCURACY",
+            "XSPECIAL",
+            "POKEDOLL",
+            "FLUFFYTAIL",
+            "SUPERREPEL",
+            "MAXREPEL",
+            "ESCAPEROPE",
+            "REPEL",
+            "SUNSTONE",
+            "MOONSTONE",
+            "FIRESTONE",
+            "THUNDERSTONE",
+            "WATERSTONE",
+            "LEAFSTONE",
+            "TINYMUSHROOM",
+            "BIGMUSHROOM",
+            "PEARL",
+            "BIGPEARL",
+            "STARDUST",
+            "STARPIECE",
+            "NUGGET",
+            "HEARTSCALE",
+            "ORANGEMAIL",
+            "HARBORMAIL",
+            "GLITTERMAIL",
+            "MECHMAIL",
+            "WOODMAIL",
+            "WAVEMAIL",
+            "BEADMAIL",
+            "SHADOWMAIL",
+            "TROPICMAIL",
+            "DREAMMAIL",
+            "FABMAIL",
+            "RETROMAIL",
+            "CHERIBERRY",
+            "CHESTOBERRY",
+            "PECHABERRY",
+            "RAWSTBERRY",
+            "ASPEARBERRY",
+            "LEPPABERRY",
+            "ORANBERRY",
+            "PERSIMBERRY",
+            "LUMBERRY",
+            "SITRUSBERRY",
+            "FIGYBERRY",
+            "WIKIBERRY",
+            "MAGOBERRY",
+            "AGUAVBERRY",
+            "IAPAPABERRY",
+            "RAZZBERRY",
+            "BLUKBERRY",
+            "NANABBERRY",
+            "WEPEARBERRY",
+            "PINAPBERRY",
+            "POMEGBERRY",
+            "KELPSYBERRY",
+            "QUALOTBERRY",
+            "HONDEWBERRY",
+            "GREPABERRY",
+            "TAMATOBERRY",
+            "CORNNBERRY",
+            "MAGOSTBERRY",
+            "RABUTABERRY",
+            "NOMELBERRY",
+            "SPELONBERRY",
+            "PAMTREBERRY",
+            "WATMELBERRY",
+            "DURINBERRY",
+            "BELUEBERRY",
+            "LIECHIBERRY",
+            "GANLONBERRY",
+            "SALACBERRYA",
+            "PETAYABERRYB",
+            "APICOTBERRYC",
+            "LANSATBERRYD",
+            "STARFBERRY",
+            "ENIGMABERRYF",
+            "BRIGHTPOWDER",
+            "WHITEHERB",
+            "MACHOBRACE",
+            "EXPSHARE",
+            "QUICKCLAW",
+            "SOOTHEBELL",
+            "MENTALHERB",
+            "CHOICEBANDA",
+            "KINGSROCKB",
+            "SILVERPOWDERC",
+            "AMULETCOIN",
+            "CLEANSETAG",
+            "SOULDEW",
+            "DEEPSEATOOTH",
+            "DEEPSEASCALE",
+            "SMOKEBALL",
+            "EVERSTONE",
+            "FOCUSBAND",
+            "LUCKYEGG",
+            "SCOPELENS",
+            "METALCOAT",
+            "LEFTOVERS",
+            "DRAGONSCALE",
+            "LIGHTBALLA",
+            "SOFTSANDB",
+            "HARDSTONEC",
+            "MIRACLESEEDD",
+            "BLACKGLASSESE",
+            "BLACKBELT",
+            "MAGNET",
+            "MYSTICWATER",
+            "SHARPBEAK",
+            "POISONBARB",
+            "NEVERMELTICE",
+            "SPELLTAG",
+            "TWISTEDSPOON",
+            "CHARCOAL",
+            "DRAGONFANG",
+            "SILKSCARF",
+            "UPGRADEA",
+            "SHELLBELLB",
+            "SEAINCENSEC",
+            "LAXINCENSED",
+            "LUCKYPUNCH",
+            "METALPOWDERF",
+            "THICKCLUB",
+            "STICK",
+            "REDSCARFE",
+            "BLUESCARFF",
+            "PINKSCARF",
+            "GREENSCARF",
+            "YELLOWSCARF",
+            "MACHBIKE",
+            "COINCASE",
+            "ITEMFINDER",
+            "OLDROD",
+            "GOODROD",
+            "SUPERROD",
+            "SSTICKET",
+            "CONTESTPASS",
+            "WAILMERPAIL",
+            "DEVONGOODS",
+            "SOOTSACK",
+            "BASEMENT KEY",
+            "ACRO BIKE",
+            "POKEBLOCK CASE",
+            "LETTER",
+            "EON TICKET",
+            "RED ORB",
+            "BLUE ORB",
+            "SCANNER",
+            "GOGOGGLES",
+            "METEORITE",
+            "RM1 KEY",
+            "RM2 KEY",
+            "RM4 KEY",
+            "RM6 KEY",
+            "STORAGE KEY",
+            "ROOT FOSSIL",
+            "CLAW FOSSIL",
+            "DEVON SCOPE",
+            "TM1",
+            "TM2",
+            "TM3",
+            "TM4",
+            "TM5",
+            "TM6",
+            "TM7",
+            "TM8",
+            "TM9",
+            "TM10",
+            "TM11",
+            "TM12",
+            "TM13",
+            "TM14",
+            "TM15",
+            "TM16",
+            "TM17",
+            "TM18",
+            "TM19",
+            "TM20",
+            "TM21",
+            "TM22",
+            "TM23",
+            "TM24",
+            "TM25",
+            "TM26",
+            "TM27",
+            "TM28",
+            "TM29",
+            "TM30",
+            "TM31",
+            "TM32",
+            "TM33",
+            "TM34",
+            "TM35",
+            "TM36",
+            "TM37",
+            "TM38",
+            "TM39",
+            "TM40",
+            "TM41",
+            "TM42",
+            "TM43",
+            "TM44",
+            "TM45",
+            "TM46",
+            "TM47",
+            "TM48",
+            "TM49",
+            "TM50",
+            "HM1",
+            "HM2",
+            "HM3",
+            "HM4",
+            "HM5",
+            "HM6",
+            "HM7",
+            "HM8",
+            "OAK\'S PARCEL",
+            "POKEFLUTE",
+            "SECRET KEY",
+            "BIKE VOUCHER",
+            "GOLD TEETH",
+            "OLD AMBER",
+            "CARD KEY",
+            "LIFT KEY",
+            "HELIX FOSSIL",
+            "DOME FOSSIL",
+            "SILPH SCOPE",
+            "BICYCLE",
+            "TOWNMAP",
+            "VS SEEKER",
+            "FAME CHECKER",
+            "TM CASE",
+            "BERRY POUCH",
+            "TEACHY TV",
+            "TRIPASS",
+            "RAINBOW PASS",
+            "TEA",
+            "MYSTICTIC KET",
+            "AURORATIC KET",
+            "POWDER JAR",
+            "RUBY",
+            "SAPPHIRE",
+            "MAGMA EMBLEM",
+            "OLD SEA MAP"});
+            this.heldItemList.Location = new System.Drawing.Point(3, 16);
+            this.heldItemList.Name = "heldItemList";
+            this.heldItemList.Size = new System.Drawing.Size(268, 150);
+            this.heldItemList.TabIndex = 0;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.tableLayoutPanel18);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(266, 144);
+            this.tabPage7.TabIndex = 3;
+            this.tabPage7.Text = "Show picture";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel17
+            // 
+            this.tableLayoutPanel17.ColumnCount = 2;
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel17.Controls.Add(this.pokeLevel, 1, 1);
+            this.tableLayoutPanel17.Controls.Add(this.label4, 0, 1);
+            this.tableLayoutPanel17.Controls.Add(this.givePokeCombo, 1, 0);
+            this.tableLayoutPanel17.Controls.Add(this.label3, 0, 0);
+            this.tableLayoutPanel17.Controls.Add(this.btGiveEgg, 0, 2);
+            this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
+            this.tableLayoutPanel17.RowCount = 3;
+            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(260, 138);
+            this.tableLayoutPanel17.TabIndex = 0;
+            // 
+            // tableLayoutPanel18
+            // 
+            this.tableLayoutPanel18.ColumnCount = 2;
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel18.Controls.Add(this.label23, 0, 1);
+            this.tableLayoutPanel18.Controls.Add(this.flowLayoutPanel10, 0, 2);
+            this.tableLayoutPanel18.Controls.Add(this.label24, 0, 0);
+            this.tableLayoutPanel18.Controls.Add(this.pokepicY, 1, 1);
+            this.tableLayoutPanel18.Controls.Add(this.pokepicX, 1, 0);
+            this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel18.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
+            this.tableLayoutPanel18.RowCount = 3;
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel18.Size = new System.Drawing.Size(260, 138);
+            this.tableLayoutPanel18.TabIndex = 1;
+            // 
+            // label23
+            // 
+            this.label23.Location = new System.Drawing.Point(3, 26);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(41, 21);
+            this.label23.TabIndex = 2;
+            this.label23.Text = "Y:";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label24
+            // 
+            this.label24.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label24.Location = new System.Drawing.Point(3, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(45, 21);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "X:";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // loadROMToolStripMenuItem
+            // 
+            this.loadROMToolStripMenuItem.Name = "loadROMToolStripMenuItem";
+            this.loadROMToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loadROMToolStripMenuItem.Text = "Load ROM";
+            // 
+            // saveScriptToolStripMenuItem
+            // 
+            this.saveScriptToolStripMenuItem.Name = "saveScriptToolStripMenuItem";
+            this.saveScriptToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveScriptToolStripMenuItem.Text = "Save";
+            this.saveScriptToolStripMenuItem.Click += new System.EventHandler(this.saveScriptToolStripMenuItem_Click);
             // 
             // mainWindow
             // 
@@ -3847,7 +2700,6 @@
             this.Name = "mainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Glitched BEST Editor";
-            this.Shown += new System.EventHandler(this.openFirst);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
@@ -3862,32 +2714,10 @@
             this.flowLayoutPanel1.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.pokeTab.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.tableLayoutPanel13.ResumeLayout(false);
-            this.tableLayoutPanel13.PerformLayout();
-            this.flowLayoutPanel16.ResumeLayout(false);
-            this.flowLayoutPanel17.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            this.tableLayoutPanel6.ResumeLayout(false);
-            this.tableLayoutPanel6.PerformLayout();
-            this.flowLayoutPanel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pokepicX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pokepicY)).EndInit();
             this.flowLayoutPanel10.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.tableLayoutPanel8.ResumeLayout(false);
-            this.tableLayoutPanel8.PerformLayout();
-            this.flowLayoutPanel11.ResumeLayout(false);
-            this.flowLayoutPanel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.wildPokeLevel)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.tableLayoutPanel9.ResumeLayout(false);
-            this.tableLayoutPanel9.PerformLayout();
-            this.flowLayoutPanel12.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.givePokeLevel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pokeLevel)).EndInit();
             this.itemTab.ResumeLayout(false);
             this.quickTable.ResumeLayout(false);
             this.tableLayoutPanel10.ResumeLayout(false);
@@ -3924,15 +2754,24 @@
             this.tableLayoutPanel14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numOw_moves)).EndInit();
             this.tableLayoutPanel15.ResumeLayout(false);
+            this.tabControl2.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            this.tabControl2.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
+            this.tableLayoutPanel16.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox12.ResumeLayout(false);
+            this.tabControl4.ResumeLayout(false);
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage7.ResumeLayout(false);
+            this.tableLayoutPanel17.ResumeLayout(false);
+            this.tableLayoutPanel18.ResumeLayout(false);
+            this.tableLayoutPanel18.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3948,7 +2787,6 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
@@ -3987,49 +2825,16 @@
         private System.Windows.Forms.ToolStripContentPanel ContentPanel;
         private System.Windows.Forms.TabPage moveTab;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel9;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox picPokeName;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.NumericUpDown pokepicX;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.NumericUpDown pokepicY;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel10;
         private System.Windows.Forms.Button btPokePic;
         private System.Windows.Forms.Button btPrevPic;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel11;
-        private System.Windows.Forms.Button btWildPoke;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel8;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox wildPokeName;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.NumericUpDown wildPokeLevel;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ComboBox wildPokeItem;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel12;
-        private System.Windows.Forms.Button btGivePoke;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox givePokeName;
+        private System.Windows.Forms.ComboBox givePokeCombo;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.NumericUpDown givePokeLevel;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox givePokeItem;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel16;
+        private System.Windows.Forms.NumericUpDown pokeLevel;
         private System.Windows.Forms.Button btGiveEgg;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel17;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.ComboBox eggPokeName;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TableLayoutPanel itemTable;
@@ -4109,6 +2914,21 @@
         private System.Windows.Forms.Button downBt_moves;
         private System.Windows.Forms.Button lastBt_moves;
         private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.ListBox pokeList;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.ListBox heldItemList;
+        private System.Windows.Forms.TabControl tabControl4;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.ToolStripMenuItem loadROMToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveScriptToolStripMenuItem;
     }
 }
 
